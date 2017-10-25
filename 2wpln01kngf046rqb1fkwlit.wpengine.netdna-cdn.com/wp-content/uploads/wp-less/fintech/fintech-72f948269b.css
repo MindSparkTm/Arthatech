@@ -1,0 +1,5509 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Slab:300,400,700');
+.page-book .buy {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/book-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.page-book .buy .button-more {
+  width: 310px;
+}
+.page-book .buy h1 {
+  font-size: 45px;
+  font-weight: 300;
+  color: #394654;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  margin: 0 0 60vh;
+}
+.page-book .buy h1:after {
+  display: none;
+}
+.page-book .book-series {
+  color: #394654;
+  padding: 0;
+  position: relative;
+  background-color: #A1A3A6;
+}
+.page-book .book-series .col {
+  position: absolute;
+  bottom: 50px;
+  max-width: 100vw;
+}
+@media (min-width: 768px) {
+  .page-book .book-series .col {
+    margin-left: 50px;
+  }
+}
+.page-book .book-series h1 {
+  font-size: 45px;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  margin: 100px 0 50px;
+}
+.page-book .book-series h1:after {
+  display: none;
+}
+.page-book .book-series h2 {
+  width: 400px;
+  max-width: 90vw;
+  text-align: left;
+  font-weight: 300;
+  font-size: 30px;
+  border-bottom: 2px solid #2f3641;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.page-book .book-series .description {
+  width: 400px;
+  max-width: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  margin: 30px 0;
+}
+.page-book .book-series .linkedin-icon {
+  width: 55px;
+  height: 55px;
+  background-size: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: middle;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.page-book .book-series .linkedin-icon.red {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-red.png");
+}
+.page-book .book-series .linkedin-icon.red:hover,
+.page-book .book-series .linkedin-icon.red:active,
+.page-book .book-series .linkedin-icon.red:focus {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-reddarker.png");
+}
+.page-book .book-series .linkedin-icon.green {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-green.png");
+}
+.page-book .book-series .linkedin-icon.green:hover,
+.page-book .book-series .linkedin-icon.green:active,
+.page-book .book-series .linkedin-icon.green:focus {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-greendarker.png");
+}
+.page-book .book-series .linkedin-icon.purple {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-purple.png");
+}
+.page-book .book-series .linkedin-icon.purple:hover,
+.page-book .book-series .linkedin-icon.purple:active,
+.page-book .book-series .linkedin-icon.purple:focus {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tweeter-purpledarker.png");
+}
+.page-book .book-series .carousel {
+  overflow: hidden;
+}
+.page-book .book-series .slide {
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  height: 100vh;
+}
+@media (max-width: 767px) {
+  .page-book .book-series .slide {
+    height: auto;
+  }
+}
+.page-book .book-series .slide .book-logo {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.page-book .book-series .slide-1 {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/book-1.jpg");
+}
+.page-book .book-series .slide-1 .book-logo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-book-1.png");
+  width: 250px;
+  height: 50px;
+}
+.page-book .book-series .slide-2 {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/book-2.jpg");
+}
+.page-book .book-series .slide-2 .book-logo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-book-2.png");
+  width: 250px;
+  height: 50px;
+}
+.page-book .book-series .slide-3 {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/book-3.jpg");
+}
+.page-book .book-series .slide-3 .book-logo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-book-3.png");
+  width: 300px;
+  height: 50px;
+}
+.page-book .book-series .slick-dots {
+  bottom: 10px;
+}
+@media (max-width: 767px) {
+  .page-book .buy {
+    background-size: 600px;
+  }
+  .page-book .buy h1 {
+    margin-bottom: 200px;
+  }
+  .page-book .buy .button-more {
+    font-size: 20px;
+    width: 270px;
+  }
+  .page-book .buy .button-more:after {
+    top: 16px;
+  }
+  .page-book .book-series .col {
+    position: static;
+    text-align: left;
+  }
+  .page-book .book-series h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 0;
+  }
+  .page-book .book-series h1 {
+    font-size: 28px;
+    margin: 50px 0 20px;
+    padding: 0 15px;
+  }
+  .page-book .book-series p.description {
+    text-align: left;
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  .page-book .book-series .linkedin-icon {
+    margin-right: 10px;
+  }
+}
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* /reset */
+#navbar .cache {
+  display: none;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-green.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter-green.png");
+  height: 0;
+  width: 0;
+}
+#next-section-intro {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 20px auto;
+  z-index: 999;
+  background-size: contain;
+  cursor: pointer;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-down-light.png");
+}
+#next-section {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: none;
+  z-index: 999;
+  background-size: contain;
+  cursor: pointer;
+}
+#next-section.light {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-down-light.png");
+}
+#next-section.dark {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-down-dark.png");
+}
+.nav-up nav.navbar-top {
+  top: 0;
+  transition: top 0.2s ease-in-out;
+}
+.nav-up .logo-bar {
+  top: -70px;
+  transition: top 0.2s ease-in-out;
+}
+.admin-bar nav.navbar-top {
+  top: 32px;
+}
+.logo-bar {
+  background-color: rgba(35, 41, 49, 0.8);
+  padding-top: 0px !important;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  display: block;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+}
+.logo-bar a {
+  display: inline-block;
+}
+.logo-bar .logo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arthatech.png");
+  width: 133px;
+  height: 67px;
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+}
+.home nav.navbar-top .main-nav .home {
+  background-color: #2e9f9a;
+}
+.page-invest nav.navbar-top .main-nav li:nth-child(2) a,
+.child-of-invest nav.navbar-top .main-nav li:nth-child(2) a {
+  background-color: #3fabfa;
+}
+.page-innovate nav.navbar-top .main-nav li:nth-child(3) a,
+.child-of-innovate nav.navbar-top .main-nav li:nth-child(3) a {
+  background-color: #6b15b2;
+}
+.page-learn nav.navbar-top .main-nav li:nth-child(4) a,
+.child-of-learn nav.navbar-top .main-nav li:nth-child(4) a {
+  background-color: #fd7400;
+}
+nav.navbar-top {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #232931;
+  border: none;
+  position: fixed;
+  top: 70px;
+  transition: top 0.2s ease-in-out;
+  bottom: auto;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav.navbar-top .menu-button {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  line-height: 56px;
+}
+nav.navbar-top .menu-button-open {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-menu.png");
+  display: block;
+  float: right;
+  margin-top: 8px;
+}
+nav.navbar-top .menu-button-close {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-close-button.png");
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+nav.navbar-top .navbar-nav > li a,
+nav.navbar-top .navbar-nav > li a:focus,
+nav.navbar-top .navbar-nav > li a:hover {
+  color: #fff;
+}
+nav.navbar-top .navbar-collapse {
+  max-height: 100%;
+  border: none;
+  box-shadow: 0;
+}
+nav.navbar-top .navbar-collapse.in {
+  height: 100%;
+}
+nav.navbar-top .icon {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+}
+nav.navbar-top .icon.icon-linkedin {
+  background-position-x: -3px;
+  background-position-y: -3px;
+  background-size: 25px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin.svg");
+}
+@media (max-width: 767px) {
+  nav.navbar-top .icon.icon-linkedin {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    background-position-x: -4px;
+    background-position-y: -4px;
+    background-size: 45px;
+  }
+}
+nav.navbar-top .icon.icon-linkedin:hover,
+nav.navbar-top .icon.icon-linkedin:focus {
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-green.png");
+}
+nav.navbar-top .icon.icon-twitter {
+  background-position-x: -3px;
+  background-position-y: -3px;
+  background-size: 25px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter.svg");
+}
+@media (max-width: 767px) {
+  nav.navbar-top .icon.icon-twitter {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    background-position-x: -4px;
+    background-position-y: -4px;
+    background-size: 45px;
+  }
+}
+nav.navbar-top .icon.icon-twitter:hover,
+nav.navbar-top .icon.icon-twitter:focus {
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter-green.png");
+}
+nav.navbar-top .main-nav {
+  font-size: 16px;
+  font-weight: bold;
+}
+nav.navbar-top .main-nav .home {
+  height: 56px;
+  background: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-home.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav.navbar-top .main-nav .home:hover,
+nav.navbar-top .main-nav .home:focus,
+nav.navbar-top .main-nav .home.active {
+  background-color: #2e9f9a;
+}
+nav.navbar-top .main-nav.dropdown-triggered .dropdown.open .dropdown-menu {
+  display: block;
+}
+nav.navbar-top .main-nav > li > a {
+  padding: 18px 50px;
+}
+nav.navbar-top .main-nav li.dropdown.open * {
+  transition: all 0.2s;
+}
+nav.navbar-top .main-nav li.dropdown.open a,
+nav.navbar-top .main-nav li.dropdown.open a:hover,
+nav.navbar-top .main-nav li.dropdown.open a:focus {
+  color: #fff;
+}
+nav.navbar-top .main-nav li.dropdown.open.purple,
+nav.navbar-top .main-nav li.dropdown.open.purple a,
+nav.navbar-top .main-nav li.dropdown.open.purple a:focus {
+  background-color: #8944c1;
+}
+nav.navbar-top .main-nav li.dropdown.open.purple a:focus,
+nav.navbar-top .main-nav li.dropdown.open.purple a:hover {
+  background-color: #6b15b2;
+}
+nav.navbar-top .main-nav li.dropdown.open.orange,
+nav.navbar-top .main-nav li.dropdown.open.orange a,
+nav.navbar-top .main-nav li.dropdown.open.orange a:focus {
+  background-color: #fd9033;
+}
+nav.navbar-top .main-nav li.dropdown.open.orange a:hover {
+  background-color: #fd7400;
+}
+nav.navbar-top .main-nav li.dropdown.open.yellow,
+nav.navbar-top .main-nav li.dropdown.open.yellow a,
+nav.navbar-top .main-nav li.dropdown.open.yellow a:focus {
+  background-color: #ffe333;
+}
+nav.navbar-top .main-nav li.dropdown.open.yellow a:hover {
+  background-color: #ffdc00;
+}
+nav.navbar-top .main-nav li.dropdown.open.blue,
+nav.navbar-top .main-nav li.dropdown.open.blue a {
+  background-color: #65bcfb;
+}
+nav.navbar-top .main-nav li.dropdown.open.blue a:focus,
+nav.navbar-top .main-nav li.dropdown.open.blue a:hover {
+  background-color: #3fabfa;
+}
+nav.navbar-top .main-nav li.dropdown.open .dropdown-menu {
+  display: none;
+  padding: 0;
+  border: 0;
+  font-size: 11px;
+  font-weight: 600;
+}
+nav.navbar-top .main-nav li.dropdown.open .dropdown-menu > li > a {
+  padding: 10px 25px 10px 15px;
+  position: relative;
+}
+nav.navbar-top .main-nav li.dropdown.open .dropdown-menu > li > a:after {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  content: '';
+  width: 6px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+}
+nav.navbar-top .second-nav {
+  font-size: 12px;
+}
+nav.navbar-top .second-nav li {
+  height: 56px;
+}
+nav.navbar-top .second-nav li a {
+  padding-top: 21px;
+}
+nav.navbar-top .second-nav li > a:hover {
+  color: #2e9f9a;
+}
+@media (max-width: 1120px) {
+  nav.navbar-top .second-nav li:first-child {
+    display: none;
+  }
+}
+@media (max-width: 880px) {
+  nav.navbar-top .second-nav li:nth-child(6) {
+    display: none;
+  }
+}
+@media (max-width: 820px) {
+  nav.navbar-top .second-nav li:nth-child(5) {
+    display: none;
+  }
+}
+nav.navbar-top .navbar-toggle {
+  border-radius: 50%;
+  margin-right: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+}
+nav.navbar-top .navbar-toggle:hover,
+nav.navbar-top .navbar-toggle:focus {
+  background-color: transparent;
+}
+nav.navbar-top .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 16px;
+}
+nav.navbar-top .navbar-mobile-top {
+  display: inline-block;
+  margin: 0 -15px;
+}
+nav.navbar-top .navbar-mobile-top li {
+  display: inline-block;
+  vertical-align: top;
+}
+nav.navbar-top .navbar-mobile-top li > a {
+  padding: 0 8px;
+  line-height: 56px;
+}
+nav.navbar-top .navbar-mobile-top .home-mobile {
+  background: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-home.png");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  height: 56px;
+  width: 56px;
+  float: left;
+}
+nav.navbar-top .navbar-mobile-top .home-mobile:hover,
+nav.navbar-top .navbar-mobile-top .home-mobile:focus,
+nav.navbar-top .navbar-mobile-top .home-mobile.active {
+  background-color: #2e9f9a;
+}
+nav.navbar-top .navbar-mobile {
+  background-color: #232931;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 -15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+nav.navbar-top .navbar-mobile .navbar-toggle {
+  margin-right: 15px;
+}
+nav.navbar-top .navbar-mobile .icon {
+  width: 36px;
+  height: 36px;
+}
+nav.navbar-top .navbar-mobile .logo-mobile {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-fintech.svg");
+  width: 133px;
+  height: 67px;
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 10px 0 0 25px;
+}
+nav.navbar-top .navbar-mobile a {
+  color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+}
+nav.navbar-top .navbar-mobile a:hover,
+nav.navbar-top .navbar-mobile a:focus {
+  text-decoration: none;
+  color: #2e9f9a;
+}
+nav.navbar-top .navbar-mobile a.innovate:hover,
+nav.navbar-top .navbar-mobile a.innovate:focus,
+nav.navbar-top .navbar-mobile a.innovate:active {
+  background-color: #6b15b2;
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile .dropdown {
+  position: relative;
+}
+nav.navbar-top .navbar-mobile .dropdown a.dropdown-toggle {
+  width: 50%;
+  display: block;
+  z-index: 600;
+  margin-top: 10px;
+  margin-right: 15px;
+  line-height: 30px;
+}
+nav.navbar-top .navbar-mobile .dropdown a.dropdown-toggle:hover,
+nav.navbar-top .navbar-mobile .dropdown a.dropdown-toggle:focus {
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile .dropdown a.dropdown-toggle:after {
+  display: inline-block;
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  content: '';
+  width: 10px;
+  height: 19px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+}
+nav.navbar-top .navbar-mobile .dropdown.orange .dropdown-menu {
+  background-color: #fd9033;
+}
+nav.navbar-top .navbar-mobile .dropdown.blue .dropdown-menu {
+  background-color: #65bcfb;
+}
+nav.navbar-top .navbar-mobile .dropdown.purple .dropdown-menu {
+  background-color: #8944c1;
+}
+nav.navbar-top .navbar-mobile .dropdown.open * {
+  transition: all 0.2s;
+}
+nav.navbar-top .navbar-mobile .dropdown.open a,
+nav.navbar-top .navbar-mobile .dropdown.open a:hover,
+nav.navbar-top .navbar-mobile .dropdown.open a:focus {
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.purple,
+nav.navbar-top .navbar-mobile .dropdown.open.purple a {
+  background-color: #8944c1;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.purple a:focus,
+nav.navbar-top .navbar-mobile .dropdown.open.purple a:hover {
+  background-color: #6b15b2;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.orange,
+nav.navbar-top .navbar-mobile .dropdown.open.orange a {
+  background-color: #fd9033;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.orange a:hover,
+nav.navbar-top .navbar-mobile .dropdown.open.orange a:focus {
+  background-color: #fd7400;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.yellow,
+nav.navbar-top .navbar-mobile .dropdown.open.yellow a,
+nav.navbar-top .navbar-mobile .dropdown.open.yellow a:focus {
+  background-color: #ffe333;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.yellow a:hover {
+  background-color: #ffdc00;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.blue,
+nav.navbar-top .navbar-mobile .dropdown.open.blue a {
+  background-color: #65bcfb;
+}
+nav.navbar-top .navbar-mobile .dropdown.open.blue a:focus,
+nav.navbar-top .navbar-mobile .dropdown.open.blue a:hover {
+  background-color: #3fabfa;
+}
+nav.navbar-top .navbar-mobile .dropdown.open ul.dropdown-menu {
+  margin-left: 50%;
+}
+nav.navbar-top .navbar-mobile .dropdown.open ul.dropdown-menu li a {
+  white-space: pre-wrap;
+}
+nav.navbar-top .navbar-mobile button.close-button {
+  z-index: 99999;
+}
+nav.navbar-top .navbar-mobile button.close-button .icon-bar + .icon-bar {
+  margin-top: -2px;
+}
+nav.navbar-top .navbar-mobile button.close-button .icon-bar:nth-child(2) {
+  transform: rotateZ(45deg);
+}
+nav.navbar-top .navbar-mobile button.close-button .icon-bar:nth-child(3) {
+  transform: rotateZ(-45deg);
+}
+nav.navbar-top .navbar-mobile button.close-button .icon-bar:nth-child(4) {
+  display: none;
+}
+nav.navbar-top .navbar-mobile ul.dropdown-menu {
+  transition: all 0s;
+  transition: margin-left 0.2s ease-in-out;
+  width: 50%;
+  display: inline-block;
+  margin-left: 101%;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  font-size: 16px;
+  padding: 0;
+  margin-top: -100vh;
+  padding-top: 100vh;
+  padding-bottom: 100vh;
+  z-index: 601;
+}
+nav.navbar-top .navbar-mobile ul.dropdown-menu li:first-of-type {
+  margin-top: -10px;
+}
+nav.navbar-top .navbar-mobile ul.dropdown-menu li a {
+  padding: 15px 25px;
+  display: block;
+  line-height: 20px;
+  font-size: 14px;
+  color: #fff !important;
+}
+nav.navbar-top .navbar-mobile ul.dropdown-menu li a:hover,
+nav.navbar-top .navbar-mobile ul.dropdown-menu li a:focus {
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile li.dropdown > a,
+nav.navbar-top .navbar-mobile a.innovate {
+  font-size: 24px;
+  font-weight: 700;
+  width: 50%;
+  display: block;
+  z-index: 600;
+  margin-top: 10px;
+  margin-right: 15px;
+  line-height: 30px;
+}
+nav.navbar-top .navbar-mobile li.dropdown > a:hover,
+nav.navbar-top .navbar-mobile a.innovate:hover,
+nav.navbar-top .navbar-mobile li.dropdown > a:focus,
+nav.navbar-top .navbar-mobile a.innovate:focus {
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile .menuitem-home {
+  font-size: 24px;
+  font-weight: 700;
+  width: 50%;
+  display: block;
+  z-index: 600;
+  margin-top: 10px;
+  margin-right: 15px;
+  line-height: 30px;
+}
+nav.navbar-top .navbar-mobile .menuitem-home:hover,
+nav.navbar-top .navbar-mobile .menuitem-home:focus {
+  color: #fff;
+}
+nav.navbar-top .navbar-mobile .menuitem-home:hover,
+nav.navbar-top .navbar-mobile .menuitem-home:focus {
+  background: #58b2ae;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  #next-section {
+    display: none !important;
+  }
+}
+.page-invest .footer.contact form .btn,
+.child-of-invest .footer.contact form .btn {
+  background-color: #65bcfb;
+}
+.page-invest .footer.contact form .btn:hover,
+.child-of-invest .footer.contact form .btn:hover,
+.page-invest .footer.contact form .btn:focus,
+.child-of-invest .footer.contact form .btn:focus {
+  background-color: #3fabfa;
+}
+.page-innovate .footer.contact form .btn,
+.child-of-innovate .footer.contact form .btn {
+  background-color: #8944c1;
+}
+.page-innovate .footer.contact form .btn:hover,
+.child-of-innovate .footer.contact form .btn:hover,
+.page-innovate .footer.contact form .btn:focus,
+.child-of-innovate .footer.contact form .btn:focus {
+  background-color: #6b15b2;
+}
+.page-learn .footer.contact form .btn,
+.child-of-learn .footer.contact form .btn {
+  background-color: #fd9033;
+}
+.page-learn .footer.contact form .btn:hover,
+.child-of-learn .footer.contact form .btn:hover,
+.page-learn .footer.contact form .btn:focus,
+.child-of-learn .footer.contact form .btn:focus {
+  background-color: #fd7400;
+}
+.footer {
+  background-color: #232931;
+  color: #a1a3a6;
+}
+.footer.footer-nav {
+  padding: 50px 0;
+  text-align: left;
+}
+.footer h2 {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.footer h2 a {
+  color: #fff;
+}
+.footer a {
+  color: #a1a3a6;
+}
+.footer a:hover,
+.footer a:focus {
+  color: #58b2ae;
+  text-decoration: none;
+}
+.footer ul {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 16px;
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 25px;
+}
+.footer .col {
+  padding-left: 40px;
+}
+.footer .subscribe-bar {
+  background-color: #2F3641;
+  width: 100%;
+  margin-left: 0;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+.footer .subscribe-bar > * {
+  margin: auto 0;
+}
+.footer .subscribe-bar h2 {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+  vertical-align: middle;
+  padding-top: 0;
+}
+.footer .subscribe-bar input {
+  background-color: #232931;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
+.footer .subscribe-bar input:focus {
+  border: none;
+  box-shadow: none;
+}
+.footer .subscribe-bar form {
+  display: flex;
+}
+.footer .subscribe-bar form .form-group {
+  margin-bottom: 0;
+}
+.footer .subscribe-bar form .subscriber-email {
+  flex-grow: 1;
+}
+.footer .subscribe-bar form .subscriber-email input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.footer .subscribe-bar .wpcf7-response-output {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: calc(100% - 30px);
+}
+.footer .subscribe-bar .btn-subscribe {
+  background-color: #232931;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 34px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.footer .row.bottom li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.footer .row.bottom a {
+  color: #58b2ae;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.footer .row.bottom a:hover,
+.footer .row.bottom a:focus {
+  color: #2e9f9a;
+}
+.footer .row.bottom p {
+  font-size: 16px;
+  font-family: 'Roboto Slab';
+}
+.footer .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  background-size: 100%;
+  display: inline-block;
+}
+.footer .icon.icon-linkedin {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin.svg");
+}
+.footer .icon.icon-linkedin:hover,
+.footer .icon.icon-linkedin:focus {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-green.png");
+}
+.footer .icon.icon-twitter {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter.svg");
+}
+.footer .icon.icon-twitter:hover,
+.footer .icon.icon-twitter:focus {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter-green.png");
+}
+.footer .icon.subscribe {
+  vertical-align: middle;
+  background: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-subscribe.png");
+  background-size: 42px 28px;
+  background-position: center;
+  width: 42px;
+  height: 28px;
+  margin-right: 70px;
+}
+.footer.contact {
+  background-color: #2f3641;
+}
+.footer.contact .background {
+  background: #394654;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=0);
+  /* IE6-9 */
+  position: absolute;
+  bottom: 0;
+  height: 35%;
+  display: block;
+  width: 100%;
+}
+.footer.contact h1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 300;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #fff;
+}
+.footer.contact h1:after {
+  display: none;
+}
+.footer.contact h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+.footer.contact .contact-visual {
+  width: 450px;
+  height: 450px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-form.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.footer.contact form {
+  font-size: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.footer.contact form .btn {
+  background-color: #58b2ae;
+  color: white;
+  border: 0;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
+.footer.contact form .btn:hover,
+.footer.contact form .btn:focus {
+  background-color: #2e9f9a;
+}
+/* footer : END */
+.btn-subscribe {
+  text-indent: -9999px;
+}
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+  color: #cccccc;
+}
+:-moz-placeholder {
+  color: #cccccc;
+}
+::-moz-placeholder {
+  color: #cccccc;
+  opacity: 1;
+  /* Since FF19 lowers the opacity of the placeholder by default */
+}
+:-ms-input-placeholder {
+  color: #cccccc;
+}
+input,
+textarea {
+  background: #232931;
+  color: white;
+  border-color: #232931;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #fff;
+}
+@media (max-width: 991px) {
+  .footer {
+    text-align: left;
+  }
+  .footer .col {
+    padding: 0 30px;
+  }
+  .footer .subscribe-bar {
+    margin: 0 0 30px;
+  }
+  .footer .subscribe-bar .icon.subscribe {
+    margin-bottom: 20px;
+  }
+  .footer .subscribe-bar h2 {
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  .footer .footer-nav {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 767px) {
+  .footer.contact h1 {
+    padding-bottom: 0;
+  }
+}
+.home .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.home section {
+  background-position: center;
+}
+.home section.section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/img-portfolio.jpg");
+  background-position: center;
+}
+.home section.section-intro .overlayer {
+  background: #232931;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.home section.invest {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/section-2.jpg");
+}
+.home section.invest h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 64px;
+}
+.home section.invest h1:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0 30px;
+}
+.home section.invest .gradient {
+  background: -moz-radial-gradient(top right, ellipse cover, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  background: -webkit-radial-gradient(top right, ellipse cover, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  background: radial-gradient(ellipse at top right, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65bcfb', endColorstr='#0065bcfb', GradientType=1);
+}
+.home section.invest .button-more {
+  background-color: #65bcfb;
+}
+.home section.invest .button-more:hover,
+.home section.invest .button-more:focus {
+  background-color: #3fabfa;
+}
+.home section.innovate {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/innovate-img.jpg");
+}
+.home section.innovate h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 64px;
+}
+.home section.innovate h1:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0 30px;
+}
+.home section.innovate .gradient {
+  background: -moz-radial-gradient(top left, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: -webkit-radial-gradient(top left, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: radial-gradient(ellipse at top left, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8944c1', endColorstr='#008944c1', GradientType=1);
+}
+.home section.innovate .button-more {
+  background-color: #8944c1;
+}
+.home section.innovate .button-more:hover,
+.home section.innovate .button-more:focus {
+  background-color: #6b15b2;
+}
+.home section.learn {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img.jpg");
+  background-position: center;
+}
+.home section.learn h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 64px;
+}
+.home section.learn h1:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px 0 30px;
+}
+.home section.learn .gradient {
+  background: -moz-radial-gradient(top left, ellipse cover, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  background: -webkit-radial-gradient(top left, ellipse cover, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  background: radial-gradient(ellipse at top left, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd9033', endColorstr='#00fd9033', GradientType=1);
+}
+.home section.learn .button-more {
+  background-color: #fd9033;
+}
+.home section.learn .button-more:hover,
+.home section.learn .button-more:focus {
+  background-color: #fd7400;
+}
+@media (max-width: 767px) {
+  .home section h1 {
+    text-align: center !important;
+  }
+}
+.page-invest .section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/section-2.jpg");
+}
+.page-invest .section-intro .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(top left, ellipse cover, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  background: -webkit-radial-gradient(top left, ellipse cover, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  background: radial-gradient(ellipse at top left, #65bcfb 0%, #65bcfb 1%, rgba(101, 188, 251, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65bcfb', endColorstr='#0065bcfb', GradientType=1);
+}
+.page-invest .about-us {
+  min-height: 700px;
+  text-align: center;
+  background-color: #3fabfa;
+}
+.page-invest .about-us h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.page-invest .about-us h3 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 30px;
+  min-height: 88px;
+}
+.page-invest .about-us .icon {
+  background-size: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin: 20px auto;
+}
+.page-invest .about-us .icon-startups {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-rocket.png");
+  width: 100px;
+}
+.page-invest .about-us .icon-investors {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-investor.png");
+  width: 75px;
+}
+.page-invest .about-us .icon-join {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-join.png");
+  width: 110px;
+}
+.page-invest .about-us .button-more.blue:hover {
+  background-color: #5084B3;
+}
+.page-invest .invest-portfolio {
+  color: #2f3641;
+  text-align: center;
+}
+.page-invest .invest-portfolio p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.page-invest .invest-portfolio .col {
+  float: none;
+  cursor: pointer;
+}
+.page-invest .invest-portfolio .col img {
+  transition: all 0.2s;
+}
+.page-invest .invest-portfolio .col:hover img {
+  transform: scale(1.2);
+}
+@media (min-width: 767px) {
+  .page-invest .invest-portfolio .col.col-sm-4 {
+    width: 30%;
+  }
+}
+.page-invest .invest-portfolio .clearfix {
+  margin-bottom: 40px;
+}
+.page-invest .invest-portfolio .row.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .page-invest .about-us h3 {
+    min-height: initial;
+  }
+}
+.page-register section.options {
+  color: #394654;
+  text-align: center;
+}
+.page-register section.options h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+.page-register section.options h3 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.page-register section.options h4 {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 120px);
+}
+.page-register section.options .icon {
+  background-size: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  height: 80px;
+  margin: 20px 20px 20px 0;
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-register section.options .icon-knowledge {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-knowledge-blue.png");
+}
+.page-register section.options .icon-door {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-door-blue.png");
+}
+.page-register section.options .icon-seminars {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-seminars-blue.png");
+}
+.page-register section.blue {
+  background-color: #65bcfb;
+  text-align: center;
+}
+.page-register section.blue h2 {
+  font-size: 20px;
+  margin: 0;
+}
+.page-register .register-form {
+  color: #394654;
+  font-family: 'Open Sans', Arial, sans-serif;
+  overflow-x: hidden;
+}
+.page-register .register-form .checkbox + .checkbox,
+.page-register .register-form .radio + .radio {
+  margin-top: 10px;
+}
+.page-register .register-form .checkbox {
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 0;
+  text-align: left;
+}
+.page-register .register-form .checkbox label {
+  line-height: 35px;
+  font-weight: 300;
+}
+.page-register .register-form h3 {
+  font-size: 22px;
+  color: #65bcfb;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-weight: 400;
+}
+.page-register .register-form h3 .required {
+  color: #394654;
+}
+.page-register .register-form h3 label {
+  font-weight: 400;
+  font-size: 22px;
+}
+.page-register .register-form h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #a1a3a6;
+  line-height: 1.4;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+}
+.page-register .register-form .acceptance .form-group {
+  display: inline-block;
+}
+.page-register .register-form .acceptance .checkbox label {
+  vertical-align: middle;
+}
+.page-register .register-form .submit .form-group {
+  width: 50%;
+}
+.page-register .register-form .button-submit {
+  color: white;
+  border: 0;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
+.page-register .register-form input.form-control {
+  background: #d7dadd;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+}
+.page-register .register-form textarea.form-control {
+  background: #d7dadd;
+  border-radius: 10px;
+  border: none;
+  color: #394654;
+}
+.page-register .register-form .checkbox label,
+.page-register .register-form .radio label {
+  padding-left: 0;
+}
+.page-register .register-form .form-group {
+  clear: both;
+}
+.page-register .register-form .form-group:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.page-register .register-form .form-group.divider:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #A1A3A6;
+}
+.page-register .register-form .membership {
+  padding: 20px 0;
+  position: relative;
+}
+.page-register .register-form .membership .bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -3000px;
+  right: -3000px;
+  background-color: #d7dadd;
+}
+.page-register .register-form .membership .toggle label {
+  background-color: #a1a3a6;
+  color: #fff;
+}
+.page-register .register-form .membership-details {
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+  min-height: 485px;
+  margin-bottom: 20px;
+}
+.page-register .register-form .membership-details h6 {
+  color: #394654;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 25px 25px 0;
+}
+.page-register .register-form .membership-details i.bullet {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.page-register .register-form .membership-details ul {
+  padding: 25px;
+}
+.page-register .register-form .membership-details ul li {
+  color: #a1a3a6;
+  font-size: 12px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(100% - 20px);
+}
+.page-register .register-form .membership-details .header {
+  background-color: #394654;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 70px;
+  text-align: center;
+}
+.page-register .register-form .membership-details .header h5 {
+  font-size: 22px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 70px;
+  font-weight: 300;
+}
+.page-register .register-form .membership-details.white h5 {
+  color: #fff;
+}
+.page-register .register-form .membership-details.white i.bullet {
+  background-color: #d7dadd;
+}
+.page-register .register-form .membership-details.gold .header {
+  background-color: #2F3641;
+}
+.page-register .register-form .membership-details.gold h5 {
+  color: #F7BB64;
+}
+.page-register .register-form .membership-details.gold i.bullet {
+  background-color: #F7BB64;
+}
+.page-register .register-form .membership-details.blue h5 {
+  color: #65bcfb;
+}
+.page-register .register-form .membership-details.blue i.bullet {
+  background-color: #65bcfb;
+}
+.page-register .register-form .toggle {
+  margin: 0 0 20px;
+  transition: all 0.2s;
+  overflow: auto;
+  margin-right: 20px;
+  padding: 0;
+}
+.page-register .register-form .toggle.col-sm-3 {
+  width: 30%;
+}
+.page-register .register-form .toggle.col-md-3 {
+  width: 30%;
+}
+.page-register .register-form .toggle label {
+  width: 100%;
+  margin-bottom: 0;
+  height: 100%;
+  background: #d7dadd;
+  border-radius: 10px;
+}
+.page-register .register-form .toggle label span {
+  text-align: center;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.page-register .register-form .toggle label input {
+  position: absolute;
+  top: -20px;
+  display: none;
+}
+.page-register .register-form .toggle .input-checked {
+  background-color: #65bcfb;
+  transition: all 0.2s;
+  color: #fff;
+  border-radius: 10px;
+}
+.page-register .register-form .form-group.expertise,
+.page-register .register-form .form-group.objectives,
+.page-register .register-form .form-group.acceptance {
+  /* Base for label styling */
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
+  /* disabled checkbox */
+  /* accessibility */
+  /* hover style just for information */
+}
+.page-register .register-form .form-group.expertise label span,
+.page-register .register-form .form-group.objectives label span,
+.page-register .register-form .form-group.acceptance label span {
+  display: inline-block;
+  width: calc(100% - 55px);
+  vertical-align: middle;
+  line-height: 1.4;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked),
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked),
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked),
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked) + label,
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked) + label,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked) + label,
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked + label,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked + label,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked + label {
+  cursor: pointer;
+  display: inline-block;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked) + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked) + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked) + label:before {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #D7DADD;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked + label:before {
+  content: '';
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: #65bcfb;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked) + label:after,
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked) + label:after,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked) + label:after,
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked + label:after,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked + label:after,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 20%;
+  left: 5px;
+  font-size: 30px;
+  line-height: 0.8;
+  color: #fff;
+  transition: all .2s;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked) + label:after,
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked) + label:after,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked + label:after,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked + label:after,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:disabled:not(:checked) + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:disabled:not(:checked) + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:disabled:not(:checked) + label:before,
+.page-register .register-form .form-group.expertise [type="checkbox"]:disabled:checked + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:disabled:checked + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:disabled:checked + label:after,
+.page-register .register-form .form-group.objectives [type="checkbox"]:disabled:checked + label:after,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:disabled + label,
+.page-register .register-form .form-group.objectives [type="checkbox"]:disabled + label,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+.page-register .register-form .form-group.expertise [type="checkbox"]:checked:focus + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:checked:focus + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:checked:focus + label:before,
+.page-register .register-form .form-group.expertise [type="checkbox"]:not(:checked):focus + label:before,
+.page-register .register-form .form-group.objectives [type="checkbox"]:not(:checked):focus + label:before,
+.page-register .register-form .form-group.acceptance [type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px solid #65bcfb;
+}
+.page-register .register-form .form-group.expertise label:hover:before,
+.page-register .register-form .form-group.objectives label:hover:before,
+.page-register .register-form .form-group.acceptance label:hover:before {
+  border: 2px solid #65bcfb !important;
+}
+@media (max-width: 992px) {
+  .page-register .register-form .membership-details {
+    min-height: initial;
+  }
+  .page-register .register-form .toggle.col-sm-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .page-register .register-form h3,
+  .page-register .register-form h4 {
+    text-align: left;
+  }
+  .page-register .register-form .submit .form-group {
+    width: 100%;
+  }
+  .page-register .register-form .toggle.col-xs-12 {
+    width: 100%;
+  }
+  .page-register .register-form .row.acceptance {
+    text-align: left;
+  }
+}
+.page-startups .invest-requirements {
+  background-color: #3fabfa;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/startups-bg.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.page-startups .invest-requirements p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #2f3641;
+  text-align: center;
+}
+.page-startups .invest-requirements h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.page-startups .invest-requirements .icon {
+  width: 200px;
+  height: 125px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.page-startups section.help {
+  color: #2f3641;
+}
+.page-startups section.help h3 {
+  text-align: center;
+}
+.page-startups section.help p {
+  display: inline-block;
+  width: calc(100% - 140px);
+  vertical-align: middle;
+}
+.page-startups section.help a {
+  color: #2f3641;
+  text-decoration: underline;
+}
+.page-startups section.help a:hover {
+  color: #232931;
+}
+.page-startups section.help .icon {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.page-startups .invest-apply {
+  background-color: #d7dadd;
+  color: #232931;
+  text-align: center;
+}
+.page-startups .invest-apply h2 {
+  font-size: 20px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-weight: 400;
+}
+.page-startups .invest-apply h2 a {
+  color: #232931;
+}
+.page-startups .invest-apply p,
+.page-startups .invest-apply h1 {
+  margin-bottom: 20px;
+}
+.page-startups .invest-apply .col-sm-4 {
+  font-size: 24px;
+}
+.page-startups .invest-apply .icon {
+  background-size: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+}
+.page-startups .icon-summary {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-summary.png");
+}
+.page-startups .icon-pitch {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-pitch.png");
+}
+.page-startups .icon-video {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-video.png");
+}
+.page-startups .icon-buildings {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-buildings-white.png");
+}
+.page-startups .icon-500k {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-500k-white.png");
+}
+.page-startups .icon-seis {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-seis-white.png");
+}
+.page-startups .icon-earth-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-blue.png");
+}
+.page-startups .icon-chart-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-chart-blue.png");
+}
+.page-startups .icon-alumni-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-alumni-blue.png");
+}
+.page-startups .icon-chat-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-chat-blue.png");
+}
+.page-startups .icon-partnerplus-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-partnerplus-blue.png");
+}
+.page-startups .icon-book-blue {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-book-blue.png");
+}
+@media (max-width: 767px) {
+  .page-startups section.help .icon {
+    display: block;
+    margin: auto;
+  }
+  .page-startups section.help p {
+    width: 100%;
+    display: block;
+  }
+}
+.page-innovate section.section-intro,
+.page-open-api section.section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/innovate-img.jpg");
+  background-position: center;
+}
+.page-innovate section.section-intro .gradient,
+.page-open-api section.section-intro .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: -webkit-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: radial-gradient(ellipse at top right, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8944c1', endColorstr='#008944c1', GradientType=1);
+}
+.page-innovate section.approach,
+.page-open-api section.approach {
+  background: #394654;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.page-innovate section.approach h2,
+.page-open-api section.approach h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.page-innovate section.approach p,
+.page-open-api section.approach p {
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+.page-innovate section.approach img,
+.page-open-api section.approach img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.page-innovate section.approach .gradient,
+.page-open-api section.approach .gradient {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  width: 100%;
+  background: #394654;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 */
+}
+.page-innovate section.details,
+.page-open-api section.details {
+  color: #6b15b2;
+  background-color: #d7dadd;
+}
+.page-innovate section.details h1,
+.page-open-api section.details h1 {
+  margin-bottom: 80px;
+}
+.page-innovate section.details .icon,
+.page-open-api section.details .icon {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: center;
+}
+.page-innovate section.details p,
+.page-open-api section.details p {
+  display: inline-block;
+  width: calc(100% - 120px);
+  padding-left: 35px;
+  vertical-align: top;
+  margin-top: 0;
+  font-size: 16px;
+}
+.page-innovate section.benefits,
+.page-open-api section.benefits {
+  background-color: #8944c1;
+  text-align: center;
+}
+.page-innovate section.benefits h1,
+.page-open-api section.benefits h1 {
+  margin-bottom: 80px;
+}
+.page-innovate section.benefits h3,
+.page-open-api section.benefits h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.page-innovate section.benefits p,
+.page-open-api section.benefits p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-innovate section.benefits .container-fluid,
+.page-open-api section.benefits .container-fluid {
+  max-width: 1170px;
+}
+.page-innovate section.benefits .icon,
+.page-open-api section.benefits .icon {
+  width: 160px;
+  height: 120px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: center;
+}
+.page-innovate section.open-api,
+.page-open-api section.open-api {
+  background-color: #6b15b2;
+}
+.page-innovate section.open-api h3,
+.page-open-api section.open-api h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.page-innovate section.open-api p,
+.page-open-api section.open-api p {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  min-height: 70px;
+  margin-bottom: 30px;
+}
+.page-innovate section.open-api .col,
+.page-open-api section.open-api .col {
+  text-align: center;
+}
+.page-innovate section.open-api .icon,
+.page-open-api section.open-api .icon {
+  width: 160px;
+  height: 160px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+.page-innovate section.open-api .icon-innovate-earth,
+.page-open-api section.open-api .icon-innovate-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-innovate-earth.png");
+}
+.page-innovate section.open-api .icon-innovate-openapi,
+.page-open-api section.open-api .icon-innovate-openapi {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-innovate-openapi.png");
+}
+.page-innovate section.open-api .icon-innovate-portfolio,
+.page-open-api section.open-api .icon-innovate-portfolio {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-innovate-portfolio.png");
+}
+.page-innovate section.services,
+.page-open-api section.services {
+  background-color: #2f3641;
+  text-align: center;
+  padding: 25px 0;
+}
+.page-innovate section.services img,
+.page-open-api section.services img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.page-innovate section.experts,
+.page-open-api section.experts {
+  color: #2f3641;
+}
+.page-innovate section.experts img,
+.page-open-api section.experts img {
+  display: inline-block;
+  vertical-align: top;
+}
+.page-innovate section.experts h2,
+.page-open-api section.experts h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.page-innovate section.experts .expert,
+.page-open-api section.experts .expert {
+  padding: 20px 40px;
+  border-top: 2px solid #d7dadd;
+}
+.page-innovate section.experts .expert:last-of-type,
+.page-open-api section.experts .expert:last-of-type {
+  border-bottom: 2px solid #D6DADD;
+}
+.page-innovate section.experts .info,
+.page-open-api section.experts .info {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 40px;
+  width: calc(100% - 240px);
+}
+.page-innovate section.experts .info p,
+.page-open-api section.experts .info p {
+  color: #A0A2A5;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.page-innovate section.experts .info p:last-of-type,
+.page-open-api section.experts .info p:last-of-type {
+  margin-bottom: 46px;
+}
+.page-innovate section.experts .info .linkedin-button,
+.page-open-api section.experts .info .linkedin-button {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-empty.png");
+  background-color: #8944c1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.page-innovate section.experts .info .linkedin-button:hover,
+.page-open-api section.experts .info .linkedin-button:hover,
+.page-innovate section.experts .info .linkedin-button:focus,
+.page-open-api section.experts .info .linkedin-button:focus,
+.page-innovate section.experts .info .linkedin-button:active,
+.page-open-api section.experts .info .linkedin-button:active {
+  background-color: #6b15b2;
+}
+.page-innovate section.experts .info h3,
+.page-open-api section.experts .info h3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 26px;
+  margin-top: 0;
+  font-weight: bold;
+}
+.page-innovate section .icon-transformation,
+.page-open-api section .icon-transformation {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-transformation-purple.png");
+}
+.page-innovate section .icon-cup,
+.page-open-api section .icon-cup {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-cup-purple.png");
+}
+.page-innovate section .icon-openapi-white,
+.page-open-api section .icon-openapi-white {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-openapi-white.png");
+}
+.page-innovate section .icon-earth,
+.page-open-api section .icon-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-white-innovation.png");
+}
+.page-innovate section .icon-bulbhand,
+.page-open-api section .icon-bulbhand {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-bulbhand-white.png");
+}
+.page-innovate section .icon-openapi,
+.page-open-api section .icon-openapi {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-openapi-purple.png");
+}
+.page-innovate section .icon-regulatoryrisk,
+.page-open-api section .icon-regulatoryrisk {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-regulatoryrisk-purple.png");
+}
+.page-innovate section .icon-agility,
+.page-open-api section .icon-agility {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-agility-white.png");
+  width: 140px;
+}
+.page-innovate section .icon-speed,
+.page-open-api section .icon-speed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-speed-white.png");
+}
+.page-innovate section .icon-testing,
+.page-open-api section .icon-testing {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-testing.png");
+}
+.page-innovate section .icon-rd,
+.page-open-api section .icon-rd {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-rd.png");
+}
+.page-innovate section .icon-risk,
+.page-open-api section .icon-risk {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-risk-white.png");
+}
+@media (max-width: 767px) {
+  .page-innovate section p,
+  .page-open-api section p {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .page-innovate section.experts img,
+  .page-open-api section.experts img {
+    display: block;
+    margin: 0 auto;
+  }
+  .page-innovate section.experts .info,
+  .page-open-api section.experts .info {
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .page-innovate section.experts .expert,
+  .page-open-api section.experts .expert {
+    padding: 20px 0;
+  }
+  .page-innovate section.details p,
+  .page-open-api section.details p {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.page-fintech-firms section.section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/innovate-img.jpg");
+  background-position: center;
+}
+.page-fintech-firms section.section-intro .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: -webkit-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: radial-gradient(ellipse at top right, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8944c1', endColorstr='#008944c1', GradientType=1);
+}
+.page-fintech-firms section.summary {
+  color: #2f3641;
+  text-align: center;
+}
+.page-fintech-firms section.summary h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.page-fintech-firms section.summary p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.page-fintech-firms section.summary .misc {
+  color: #999999;
+  border-top: 2px solid #8944c1;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.page-fintech-firms section.summary .misc p {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-weight: 400;
+}
+.page-fintech-firms section.summary .summary-info {
+  min-height: 230px;
+}
+.page-fintech-firms section.summary .icon {
+  width: 120px;
+  height: 120px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.page-fintech-firms section.approach {
+  background: #394654;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.page-fintech-firms section.approach h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.page-fintech-firms section.approach p {
+  font-size: 19px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+.page-fintech-firms section.approach img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.page-fintech-firms section.approach .gradient {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  width: 100%;
+  background: #394654;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 */
+}
+.page-fintech-firms section.benefits {
+  background-color: #6b15b2;
+  text-align: center;
+}
+.page-fintech-firms section.benefits h1 {
+  margin-bottom: 80px;
+}
+.page-fintech-firms section.benefits h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.page-fintech-firms section.benefits p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-fintech-firms section.benefits .container-fluid {
+  max-width: 1170px;
+}
+.page-fintech-firms section.benefits .icon {
+  width: 160px;
+  height: 120px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: center;
+}
+.page-fintech-firms section .icon-industry {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-industry-purple.png");
+}
+.page-fintech-firms section .icon-earth-purple {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-purple.png");
+}
+.page-fintech-firms section .icon-model {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-model-purple.png");
+}
+.page-fintech-firms section .icon-transformation {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-transformation-purple.png");
+}
+.page-fintech-firms section .icon-cup {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-cup-purple.png");
+}
+.page-fintech-firms section .icon-openapi-white {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-openapi-white.png");
+}
+.page-fintech-firms section .icon-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-white-innovation.png");
+}
+.page-fintech-firms section .icon-bulbhand {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-bulbhand-white.png");
+}
+.page-fintech-firms section .icon-openapi {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-openapi-purple.png");
+}
+.page-fintech-firms section .icon-regulatoryrisk {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-regulatoryrisk-purple.png");
+}
+.page-fintech-firms section .icon-agility {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-agility-white.png");
+  width: 140px;
+}
+.page-fintech-firms section .icon-speed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-speed-white.png");
+}
+.page-fintech-firms section .icon-testing {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-testing.png");
+}
+.page-fintech-firms section .icon-rd {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-rd.png");
+}
+.page-fintech-firms section .icon-risk {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-risk-white.png");
+}
+@media (max-width: 767px) {
+  .page-fintech-firms section p {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .page-fintech-firms section.details p {
+    width: 100%;
+    padding-left: 0;
+  }
+  .page-fintech-firms section.summary .summary-info {
+    min-height: auto;
+  }
+}
+.page-about-us .team {
+  padding-top: 140px;
+  color: #394654;
+}
+.page-about-us .team .cache {
+  display: none;
+  height: 0;
+  width: 0;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-grey.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-green.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-green.png");
+}
+.page-about-us .team h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+.page-about-us .team span.member-name {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.page-about-us .team img {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  vertical-align: top;
+}
+.page-about-us .team p {
+  color: #A0A2A5;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 30px 25px 0;
+}
+.page-about-us .team .summary {
+  display: inline-block;
+  width: calc(100% - 250px);
+  padding-left: 20px;
+  vertical-align: top;
+}
+.page-about-us .team .member {
+  padding: 20px 40px;
+  border-top: 2px solid #d7dadd;
+  position: relative;
+  clear: both;
+}
+.page-about-us .team a {
+  color: #394654;
+  display: inline-block;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.page-about-us .team a .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.page-about-us .team a .icon.twitter {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter-grey.png");
+}
+.page-about-us .team a .icon.linkedin {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-grey.png");
+}
+.page-about-us .team .member:last-of-type {
+  border-bottom: 2px solid #D6DADD;
+}
+.page-about-us .team button.text-toggle {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 110px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-grey.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  text-indent: -9999px;
+}
+.page-about-us .team button.text-toggle:focus {
+  outline: none;
+}
+.page-about-us .team button.text-toggle:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-green.png");
+}
+.page-about-us .team button.text-toggle.collapsed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png");
+}
+.page-about-us .team button.text-toggle.collapsed:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-green.png");
+}
+.page-about-us .team ul li {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  padding: 5px 25px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.page-about-us .team ul li.innovate {
+  border-color: #6b15b2 !important;
+  color: #6b15b2;
+}
+.page-about-us .team ul li.invest {
+  border-color: #3fabfa !important;
+  color: #3fabfa;
+}
+.page-about-us .team ul li.learn {
+  border-color: #fd7400 !important;
+  color: #fd7400;
+}
+@media (max-width: 767px) {
+  .page-about-us section.team h3 {
+    margin-top: 10px;
+  }
+  .page-about-us section.team p {
+    margin: 10px 0 20px;
+  }
+  .page-about-us section.team .member {
+    padding: 20px 0;
+  }
+  .page-about-us section.team .summary {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media (min-width: 421px) {
+  .page-about-us section.team ul li:first-child {
+    border-left: 2px solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .page-about-us section.team ul li:last-child {
+    border-right: 2px solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .page-about-us section.team ul li {
+    display: block;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-top: none;
+    border-bottom: none;
+  }
+  .page-about-us section.team ul li:first-child {
+    border-top: 2px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .page-about-us section.team ul li:last-child {
+    border-bottom: 2px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .page-about-us section.team button.text-toggle {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+}
+.page-news .section-intro-news {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/news-ipad.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 150px 0;
+}
+.page-news .section-intro-news .overlayer {
+  background: #58b2ae;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.page-news .news,
+.post-type-archive .news {
+  color: #333;
+}
+.page-news .news .col,
+.post-type-archive .news .col {
+  margin-bottom: 10px;
+}
+.page-news .news .item,
+.post-type-archive .news .item {
+  border-top: 2px solid #d7dadd;
+  padding: 20px 0;
+  margin: 0 30px;
+  color: #333;
+  display: flex;
+}
+.page-news .news .item .title,
+.post-type-archive .news .item .title {
+  font-size: 26px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+.page-news .news .item .date,
+.post-type-archive .news .item .date {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin-bottom: 15px;
+}
+.page-news .news .item .description,
+.post-type-archive .news .item .description {
+  color: #a1a3a6;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.page-news .news .item .publication,
+.post-type-archive .news .item .publication {
+  flex: 0 0 180px;
+  position: relative;
+}
+.page-news .news .item .publication img,
+.post-type-archive .news .item .publication img {
+  max-width: 100px;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.page-news .news .item .info,
+.post-type-archive .news .item .info {
+  display: inline-block;
+  width: calc(100% - 200px);
+  color: #394654;
+  padding: 20px 0 20px 20px;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-news .news .sidebar,
+.post-type-archive .news .sidebar {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-news .news .sidebar h2,
+.post-type-archive .news .sidebar h2 {
+  font-size: 33px;
+  font-weight: 400;
+  margin: 40px 0 10px;
+}
+.page-news .news .sidebar h2:first-of-type,
+.post-type-archive .news .sidebar h2:first-of-type {
+  margin-top: 0;
+}
+.page-news .news .sidebar p,
+.post-type-archive .news .sidebar p {
+  font-size: 18px;
+}
+.page-news .news .sidebar a,
+.post-type-archive .news .sidebar a {
+  color: #58b2ae;
+}
+.page-news .news .sidebar a:hover,
+.post-type-archive .news .sidebar a:hover,
+.page-news .news .sidebar a:active,
+.post-type-archive .news .sidebar a:active,
+.page-news .news .sidebar a:focus,
+.post-type-archive .news .sidebar a:focus {
+  color: #2e9f9a;
+}
+.page-news .news .sidebar a.button-more,
+.post-type-archive .news .sidebar a.button-more {
+  color: #fff;
+}
+.page-news .news .sidebar .downloads,
+.post-type-archive .news .sidebar .downloads {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.page-news .news .sidebar .downloads .download-type,
+.post-type-archive .news .sidebar .downloads .download-type {
+  font-size: 18px;
+}
+.page-news .news .sidebar .downloads .icon-download,
+.post-type-archive .news .sidebar .downloads .icon-download {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/download-arrow.png");
+}
+.page-news .news .sidebar input,
+.post-type-archive .news .sidebar input {
+  background-color: #232931;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
+.page-news .news .sidebar input:focus,
+.post-type-archive .news .sidebar input:focus {
+  border: none;
+  box-shadow: none;
+}
+.page-news .news .sidebar form,
+.post-type-archive .news .sidebar form {
+  display: flex;
+}
+.page-news .news .sidebar form .form-group,
+.post-type-archive .news .sidebar form .form-group {
+  margin-bottom: 0;
+}
+.page-news .news .sidebar form .subscriber-email,
+.post-type-archive .news .sidebar form .subscriber-email {
+  flex-grow: 1;
+}
+.page-news .news .sidebar form .subscriber-email input,
+.post-type-archive .news .sidebar form .subscriber-email input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.page-news .news .sidebar .wpcf7-response-output,
+.post-type-archive .news .sidebar .wpcf7-response-output {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: calc(100% - 30px);
+}
+.page-news .news .sidebar .btn-subscribe,
+.post-type-archive .news .sidebar .btn-subscribe {
+  background-color: #232931;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 34px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media (max-width: 767px) {
+  .page-news .news .item {
+    text-align: left;
+    margin: 0;
+  }
+  .page-news .news .item .publication {
+    fleX: 0 0 130px;
+  }
+  .page-news .sidebar {
+    text-align: left !important;
+  }
+}
+@media (max-width: 640px) {
+  .page-news .news .item {
+    flex-direction: column;
+  }
+  .page-news .news .item a.button-more {
+    display: block;
+  }
+}
+@media (max-width: 530px) {
+  .page-news .item {
+    margin: 0 10px;
+  }
+  .page-news .item .publication {
+    display: block;
+    width: 100%;
+  }
+  .page-news .item .info {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .page-news .item .button-more {
+    position: static;
+    margin: 10px auto 0;
+  }
+}
+.page-tours section p {
+  font-size: 16px;
+}
+.page-tours section .gradient-grey {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  width: 100%;
+  background: #2f3641;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #2f3641 0%, #394654 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #2f3641 0%, #394654 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #2f3641 0%, #394654 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f3641', endColorstr='#394654', GradientType=0);
+  /* IE6-9 */
+}
+.page-tours section.orange {
+  background-color: #fd7400;
+}
+.page-tours section.orange-intro {
+  padding: 150px 0;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img.jpg");
+  background-position: center;
+  position: relative;
+}
+.page-tours section.orange-intro h2 {
+  text-align: center;
+}
+.page-tours section.orange-intro .overlay {
+  background-color: #fd7400;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.page-tours section.black {
+  background-color: #232931;
+  color: #fff;
+}
+.page-tours section.black p {
+  display: inline-block;
+  width: calc(100% - 140px);
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.page-tours section.black h2 {
+  text-align: center;
+}
+.page-tours section.black .icon {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-position: center;
+}
+.page-tours section.black .icon-speaker-orange {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-speaker-orange.png");
+}
+.page-tours section.black .icon-rocket-orange {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-rocket-orange.png");
+}
+.page-tours section.orange-grey {
+  padding-top: 0;
+}
+.page-tours section.orange-grey .orange {
+  padding: 30px 0;
+  display: block;
+  background-color: #fd7400;
+  text-align: center;
+  min-height: 33vh;
+  position: relative;
+}
+.page-tours section.orange-grey .orange h2 {
+  margin: auto;
+}
+.page-tours section.orange-grey .grey {
+  padding: 30px 0;
+  display: block;
+  background-color: #d7dadd;
+  color: #394654;
+  text-align: center;
+  min-height: 66vh;
+  position: relative;
+}
+.page-tours section.advice {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/tours-bg.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  color: #2f3641;
+}
+.page-tours section.advice .icon {
+  width: 170px;
+  height: 170px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: center;
+  margin: auto;
+}
+.page-tours section.advice .icon-people {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tours-people.png");
+}
+.page-tours section.advice .icon-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tours-earth.png");
+}
+.page-tours section.advice .icon-collaborate {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tours-collaborate.png");
+}
+.page-tours section.advice p {
+  display: block;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  padding: 0 20px;
+}
+.page-tours section.advice h3 {
+  font-size: 34px;
+  margin-top: 100px;
+  text-align: center;
+}
+.page-tours section.expectation {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/img-tours-1.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.page-tours section.expectation .box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  color: #232931;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.page-tours section.expectation h2 {
+  color: #fd7400;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.page-tours section.expectation p {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+.page-tours section.expectation p.big {
+  font-size: 16px;
+  font-weight: 600;
+}
+.page-tours section.expectation-quote {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/img-tours-2.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.page-tours section.expectation-quote .box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  color: #232931;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.page-tours section.expectation-quote p {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 18px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 20px;
+}
+.page-tours section.expectation-quote .misc span {
+  font-weight: 400;
+}
+.page-tours section.expectation-quote .quote {
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.page-tours section.expectation-quote .quote.quote-open {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-open.png");
+  top: -40px;
+  left: -40px;
+}
+.page-tours section.expectation-quote .quote.quote-close {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-close.png");
+  bottom: -40px;
+  right: -40px;
+}
+.page-tours section.tour-icons {
+  background: #394654;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.page-tours section.tour-icons p {
+  text-align: center;
+}
+.page-tours section.tour-icons h1 {
+  margin-bottom: 100px;
+}
+.page-tours section.tour-icons h1:after {
+  display: none;
+}
+.page-tours section.tour-icons .icon {
+  display: block;
+  margin: 0 auto 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 200px;
+}
+.page-tours section.tour-icons .icon-chat {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-network-orange.png");
+}
+.page-tours section.tour-icons .icon-connections {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-connections-orange.png");
+}
+.page-tours section.tour-icons .icon-london {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-london-orange.png");
+}
+.page-tours section.tour-icons .icon-models {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-models-orange.png");
+}
+.page-tours section.grey {
+  background-color: #d7dadd;
+}
+.page-tours section.grey p {
+  color: #2f3641;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.page-tours section.grey h2 {
+  color: #fd7400;
+  font-size: 37px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.page-tours section.tour-agenda {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/tours-bg.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  color: #2f3641;
+}
+.page-tours section.tour-agenda h1 {
+  color: #fd7400;
+  margin-bottom: 10px;
+}
+.page-tours section.tour-agenda h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.page-tours section.tour-agenda a {
+  color: #2f3641;
+}
+.page-tours section.tour-agenda p {
+  width: calc(100% - 40px);
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+.page-tours section.tour-agenda .icon {
+  width: 15px;
+  height: 30px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: center;
+}
+.page-tours section.tour-agenda .icon-bullet {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/bullet.png");
+}
+.page-tours section.quote {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img.jpg");
+  background-position: center;
+}
+.page-tours section.quote .overlay {
+  background-color: #fd7400;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.page-tours section.quote .quote {
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.page-tours section.quote .quote.quote-open {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-open-white.png");
+  top: -40px;
+  left: -40px;
+}
+.page-tours section.quote .quote.quote-close {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-close-white.png");
+  bottom: -40px;
+  right: -40px;
+}
+.page-tours section.quote p {
+  max-width: 800px;
+  margin: auto;
+}
+.page-tours section.quote p.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  text-align: left;
+  line-height: 1.6;
+  position: relative;
+  margin: 30px;
+}
+@media (max-width: 1024px) {
+  .page-tours section.quote p.quote-text {
+    font-size: 20px;
+  }
+}
+.page-tours section.quote p.misc {
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.page-tours section.quote p.misc span {
+  font-weight: 400;
+}
+.page-tours section.quote .portrait {
+  width: 125px;
+  height: 125px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/portrait-balazs.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.page-tours section.dark {
+  background-color: #232931;
+}
+.page-tours section.dark h1 {
+  margin-bottom: 50px;
+}
+.page-tours section.dark h1:after {
+  display: none;
+}
+.page-tours section.dark .counter {
+  font-size: 38px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  color: #fd7400;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 65px;
+  height: 65px;
+  line-height: 56px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 50px;
+}
+.page-tours section.dark p {
+  text-align: center;
+}
+.page-tours section.sponsors h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #394654;
+  font-weight: bold;
+}
+.page-tours section.sponsors p {
+  color: #394654;
+  text-align: center;
+}
+.page-tours section.sponsors p:before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #fd7400;
+  margin: 30px 0;
+}
+.page-tours section.sponsors .logo {
+  display: block;
+  margin: 0 auto 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 77px;
+}
+.page-tours section.sponsors .logo-just-loans {
+  width: 280px;
+  height: 45px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-justloangroup.png");
+}
+.page-tours section.sponsors .logo-london-partners {
+  width: 245px;
+  height: 70px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-london-partners.png");
+}
+.page-tours section.sponsors .logo-kpmg {
+  width: 191px;
+  height: 77px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/logo-kpmg.png");
+}
+.page-tours section.get-in-touch {
+  text-align: center;
+  background: #394654;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #394654 0%, #2f3641 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #394654 0%, #2f3641 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#394654', endColorstr='#2f3641', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.page-tours section.get-in-touch img {
+  max-width: 90%;
+  margin: 30px auto;
+}
+.page-tours section.get-in-touch p a,
+.page-tours section.get-in-touch p a:active,
+.page-tours section.get-in-touch p a:hover,
+.page-tours section.get-in-touch p a:focus {
+  color: #fd7400;
+}
+.page-tours section.get-in-touch p {
+  font-size: 26px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  margin-bottom: 0;
+}
+.page-tours section.get-in-touch p:after {
+  display: none;
+}
+.page-tours section.get-in-touch .button-more {
+  margin: 20px auto;
+}
+.page-tours section.faqs {
+  color: #394654;
+}
+.page-tours section.faqs h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.page-tours section.faqs h3 {
+  text-align: center;
+  padding: 0 40px;
+  font-size: 26px;
+  line-height: 1.5;
+}
+.page-tours section.faqs h3 a {
+  color: #fd7400;
+}
+.page-tours section.faqs p {
+  font-size: 16px;
+  color: #a1a3a6;
+}
+.page-tours section.faqs ul li {
+  padding: 20px 40px;
+  border-top: 2px solid #d7dadd;
+  position: relative;
+  clear: both;
+}
+.page-tours section.faqs ul li:last-of-type {
+  border-bottom: 2px solid #D6DADD;
+}
+.page-tours section.faqs ul li h2 {
+  color: #fd7400;
+  cursor: pointer;
+}
+.page-tours section.faqs ul li h2.collapsed {
+  color: #394654;
+}
+.page-tours section.faqs .cache {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-grey.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-orange.png"), url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-orange.png");
+  display: none;
+  height: 0;
+  width: 0;
+}
+.page-tours section.faqs button.text-toggle {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  text-indent: -9999px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-orange.png");
+}
+.page-tours section.faqs button.text-toggle:focus {
+  outline: none;
+}
+.page-tours section.faqs button.text-toggle.collapsed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png");
+}
+.page-tours section.registration {
+  background-color: #d7dadd;
+  color: #394654;
+}
+.page-tours section.registration h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px 0 0 ;
+  line-height: 1.2;
+  text-align: center;
+}
+.page-tours section.registration h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.page-tours section.registration select,
+.page-tours section.registration input,
+.page-tours section.registration textarea {
+  border: none;
+  border-radius: 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-tours section.registration .button-more.orange {
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  display: block;
+  width: 100%;
+}
+.page-tours section.registration .form-group {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .page-tours section.orange.intro {
+    padding: 150px 0 25px;
+  }
+  .page-tours section.quote h1 {
+    font-size: 28px;
+  }
+  .page-tours section.dark .counter {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .page-tours section.dark p {
+    display: inline-block;
+    width: calc(100% - 80px);
+    padding-left: 20px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .page-tours section.get-in-touch p {
+    font-size: 20px;
+  }
+  .page-tours section.get-in-touch .button-more span {
+    display: none;
+  }
+  .page-tours section.black .icon,
+  .page-tours section.dark .icon {
+    display: block;
+    margin: auto;
+  }
+  .page-tours section.black p,
+  .page-tours section.dark p {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .page-tours section.splitted .half-left {
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .page-tours section.faqs button.text-toggle {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+}
+.page-investors h3 {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+}
+.page-investors p {
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-investors section.details {
+  background-color: #3fabfa;
+  text-align: center;
+  padding-top: 150px;
+}
+.page-investors section.details h2 {
+  font-weight: bold;
+}
+.page-investors section.details .col {
+  text-align: left;
+}
+.page-investors section.details .icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+.page-investors section.details .icon-network {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-network.png");
+}
+.page-investors section.details .icon-rocket {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-rocket-grey.png");
+}
+.page-investors section.details .icon-investor {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-investor-grey.png");
+}
+.page-investors section.details .icon-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-grey.png");
+}
+.page-investors section.details .text {
+  display: inline-block;
+  margin-left: 20px;
+  max-width: calc(100% - 140px);
+}
+.page-investors section.details .text h2 {
+  margin: 0 0 10px;
+}
+.page-investors section.details .text p {
+  font-weight: 600;
+}
+.page-investors section.process {
+  color: #2f3641;
+  text-align: center;
+}
+.page-investors section.process h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+.page-investors section.process p {
+  font-weight: 600;
+}
+.page-investors section.process .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+}
+.page-investors section.process .icon-checkbox {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-check.png");
+}
+.page-investors section.process .icon-calendar {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-calendar.png");
+}
+.page-investors section.process .icon-matching {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-add-investor.png");
+}
+.page-investors section.invest-benefits {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.page-investors section.invest-benefits .col-sm-6 {
+  text-align: left;
+}
+.page-investors section.invest-benefits .lighter {
+  background-color: #394654;
+  min-height: 33vh;
+}
+.page-investors section.invest-benefits .dark {
+  background-color: #2f3641;
+  min-height: 67vh;
+}
+.page-investors section.invest-benefits .dark p {
+  font-weight: 300;
+  font-size: 30px;
+}
+.page-investors section.invest-benefits .dark h3 {
+  margin-bottom: 50px;
+}
+.page-investors section.invest-benefits .dark .req {
+  display: inline-block;
+  max-width: calc(100% - 70px);
+  vertical-align: top;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 10px;
+}
+.page-investors section.invest-benefits .counter {
+  font-size: 38px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  color: #65bcfb;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 65px;
+  height: 65px;
+  line-height: 56px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.page-investors section.invest-benefits .button-more {
+  margin: 0 auto;
+}
+.page-investors section.about {
+  background-color: #3fabfa;
+}
+.page-investors section.about p {
+  color: #394654;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  text-align: center;
+}
+.page-investors section.about .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 10px;
+  width: 120px;
+  height: 120px;
+}
+.page-investors section.about .icon-investor {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-investor-white.png");
+}
+.page-investors section.about .icon-earth {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-earth-white.png");
+}
+.page-investors section.about .icon-book {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-book-white.png");
+}
+.page-investors section.risk {
+  color: #A1A3A6;
+}
+.page-investors section.risk h1 {
+  color: #2f3641;
+}
+.page-investors section.risk h3 {
+  color: #3fabfa;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+.page-investors section.risk p {
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  .page-investors section.details .icon {
+    display: block;
+    margin: 0 auto;
+  }
+  .page-investors section.details .text {
+    display: block;
+    max-width: none;
+    text-align: center;
+  }
+  .page-investors section.process h3,
+  .page-investors section.about h3 {
+    margin-bottom: 50px;
+  }
+  .page-investors section.details .text {
+    margin-left: auto;
+  }
+}
+@media (max-width: 992px) {
+  .page-investors section.invest-benefits.dark .req {
+    line-height: 1.2;
+  }
+}
+.page-courses section.orange {
+  background-color: #fd7400;
+  text-align: center;
+}
+.page-courses section.orange h2 {
+  font-weight: 700;
+  margin: 10px auto;
+}
+.page-courses .courses {
+  padding-top: 150px;
+  color: #2f3641;
+}
+.page-courses .courses h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fd7400;
+  text-align: center;
+}
+.page-courses .courses h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 30px;
+}
+.page-courses .courses p {
+  font-size: 16px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  color: #A1A3A6;
+  text-align: center;
+}
+.page-courses .courses .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+}
+.page-courses .courses .icon-bulb {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-bulb-orange.png");
+}
+.page-courses .courses .icon-card {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-card-orange.png");
+}
+.page-courses .courses .icon-master {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-master.png");
+}
+.page-courses .courses .icon-puzzle {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-puzzle.png");
+}
+.page-courses .courses .icon-models {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-models-orange.png");
+}
+.page-courses section.slideshow {
+  background-color: #394654;
+  padding: 0;
+}
+.page-courses section.slideshow .slide {
+  padding: 50px 0;
+  position: relative;
+  display: flex;
+}
+.page-courses section.slideshow .slide .container {
+  align-self: center;
+}
+.page-courses .overview {
+  background-color: #394654;
+}
+.page-courses .overview h3 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.page-courses .overview h2 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fd7400;
+  margin: 0 0 10px;
+}
+.page-courses .overview p {
+  font-size: 16px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  text-align: center;
+}
+.page-courses .overview .text {
+  display: block;
+  text-align: center;
+  vertical-align: top;
+}
+.page-courses .overview .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+.page-courses .overview .icon-bulb {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-bulb-orange.png");
+}
+.page-courses .overview .icon-check {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-check-orange.png");
+}
+.page-courses .masterclasses {
+  background-color: #394654;
+}
+.page-courses .masterclasses h2 {
+  color: #fd7400;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px 0;
+  text-align: center;
+}
+.page-courses .masterclasses p {
+  font-size: 16px;
+  text-align: center;
+}
+.page-courses .masterclasses .bootcamp h4 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+.page-courses .masterclasses .bootcamp p {
+  text-align: left;
+}
+.page-courses .masterclasses .bootcamp:before,
+.page-courses .masterclasses .bootcamp:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #A1A3A6;
+  margin: 30px 0;
+}
+.page-courses .masterclasses .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+}
+.page-courses .masterclasses .icon-oneday {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-calendar-oneday.png");
+}
+.page-courses .masterclasses .icon-halfday {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-calendar-halfday.png");
+}
+.page-courses .integration {
+  background-color: #394654;
+}
+.page-courses .integration h1 {
+  text-align: center;
+}
+.page-courses .integration h1:after {
+  display: none;
+}
+.page-courses .integration h2 {
+  margin: 0 0 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fd7400;
+}
+.page-courses .integration p {
+  font-size: 16px;
+}
+.page-courses .integration h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.page-courses .integration h4 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.page-courses .integration .counter {
+  font-size: 38px;
+  border: 3px solid #FFF;
+  border-radius: 50%;
+  color: #fd7400;
+  font-family: 'Open Sans', Arial, sans-serif;
+  width: 65px;
+  height: 65px;
+  line-height: 56px;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.page-courses .integration .text {
+  display: block;
+  text-align: center;
+}
+.page-courses .integration .button-more {
+  display: block;
+  max-width: 400px;
+  margin: auto;
+}
+.page-courses .splitted {
+  padding: 0;
+  display: flex !important;
+}
+.page-courses .splitted > div {
+  width: 50%;
+}
+.page-courses .splitted .button-more {
+  display: block;
+}
+.page-courses .splitted .half-left {
+  background-color: #d7dadd;
+  padding: 50px;
+}
+.page-courses .splitted .half-left img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+}
+.page-courses .splitted .half-left p {
+  color: #232931;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-courses .splitted .half-left a {
+  margin-bottom: 50px;
+}
+.page-courses .splitted .half-right h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.page-courses .splitted .photo {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: block;
+}
+.page-courses .splitted .middle-photos {
+  height: 34%;
+  width: 100%;
+  display: flex;
+}
+.page-courses .splitted .middle-photos > div {
+  width: 50%;
+  height: 100%;
+}
+.page-courses .splitted .top-photo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img1.jpg");
+  background-position: top center;
+  height: 33%;
+}
+.page-courses .splitted .middle-left-photo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img2.jpg");
+}
+.page-courses .splitted .middle-right-photo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img3.jpg");
+}
+.page-courses .splitted .bottom-photo {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img4.jpg");
+  height: 33%;
+}
+.page-courses .info {
+  color: #394654;
+}
+.page-courses .info h2 {
+  font-size: 22px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-courses .info p {
+  font-size: 22px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 35px;
+  padding-left: 10px;
+  max-width: calc( 100% - 80px);
+}
+.page-courses .info a,
+.page-courses .info a:hover,
+.page-courses .info a:focus,
+.page-courses .info a:active {
+  color: #fd7400;
+  font-weight: bold;
+}
+.page-courses .info .icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  width: 70px;
+  height: 70px;
+}
+.page-courses .info .icon-check {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-check-orange.png");
+}
+.page-courses .info .icon-bulb {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-bulb-orange.png");
+}
+@media (max-width: 767px) {
+  .page-courses .splitted {
+    flex-direction: column;
+  }
+  .page-courses .splitted > div {
+    display: block;
+    width: 100%;
+  }
+  .page-courses .splitted img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  .page-courses .splitted .button-more {
+    display: block;
+  }
+  .page-courses .splitted h2 {
+    font-size: 24px !important;
+  }
+  .page-courses .splitted .half-left {
+    background-color: #d7dadd;
+  }
+  .page-courses .splitted .half-left p {
+    color: #394654;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+  .page-courses .splitted .half-right {
+    height: 100vh;
+  }
+  .page-courses .overview .icon {
+    display: block;
+  }
+  .page-courses .overview .text {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .page-courses .courses h2 {
+    min-height: 90px;
+  }
+  .page-courses .courses .col-sm-2 {
+    width: 20% !important;
+  }
+}
+.page-partners .partners {
+  padding: 140px 0 0;
+  height: auto !important;
+}
+.page-partners .partners h1 {
+  font-size: 45px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: #394654;
+}
+.page-partners .partners h2 {
+  text-align: center;
+  color: #394654;
+}
+.page-partners .partners h3 {
+  margin-top: 0;
+  color: #394654;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.page-partners .partners h3 a {
+  color: #232931;
+}
+.page-partners .partners span.partner-name {
+  margin-top: 0;
+  color: #394654;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+.page-partners .partners .image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  vertical-align: top;
+  text-align: center;
+}
+.page-partners .partners .image img {
+  max-width: 100%;
+  height: auto;
+}
+.page-partners .partners p {
+  color: #A0A2A5;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 30px 25px 0;
+}
+.page-partners .partners .summary {
+  display: inline-block;
+  width: calc(100% - 250px);
+  padding-left: 20px;
+  vertical-align: top;
+}
+.page-partners .partners .partner {
+  padding: 20px 40px;
+  border-top: 2px solid #d7dadd;
+  position: relative;
+  clear: both;
+}
+.page-partners .partners .partner:last-of-type {
+  border-bottom: 2px solid #D6DADD;
+}
+.page-partners .partners .container {
+  height: auto !important;
+}
+.page-partners .partners section a {
+  display: block;
+  float: left;
+  clear: left;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.page-partners .partners button.text-toggle {
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-grey.png");
+  background-size: 100%;
+  background-color: transparent;
+  border: none;
+  text-indent: -9999px;
+}
+.page-partners .partners button.text-toggle:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-green.png");
+}
+.page-partners .partners button.text-toggle.collapsed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png");
+}
+.page-partners .partners button.text-toggle.collapsed:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-green.png");
+}
+@media (max-width: 767px) {
+  .page-partners .partner img {
+    display: block;
+    margin: auto;
+  }
+  .page-partners .partner .summary {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  .page-partners .partner p {
+    margin: 10px 0 25px;
+  }
+}
+.page-community .section-intro-community {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/city.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+.page-community .section-intro-community h1 {
+  margin-bottom: 20px;
+}
+.page-community .section-intro-community .overlayer {
+  background: #58b2ae;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.page-community .social {
+  color: #394654;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.page-community .social h1 {
+  font-size: 45px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.page-community .social h3 {
+  margin-top: 0;
+}
+.page-community .social p {
+  color: #A0A2A5;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 30px 25px 0;
+}
+.page-community .social .item {
+  padding: 20px 40px;
+  border-top: 2px solid #d7dadd;
+  position: relative;
+  clear: both;
+}
+.page-community .social .item img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  vertical-align: top;
+}
+.page-community .social .item .item-description {
+  display: inline-block;
+  width: calc(100% - 200px);
+  padding-left: 20px;
+  vertical-align: top;
+}
+.page-community .social a {
+  color: #394654;
+  font-size: 16px;
+  display: inline-block;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 15px 10px 15px 0;
+}
+.page-community .social a span {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.page-community .social a:hover .icon.twitter {
+  background-color: #2e9f9a;
+}
+.page-community .social a:hover .icon.linkedin {
+  background-color: #2e9f9a;
+}
+.page-community .social a .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.page-community .social a .icon.twitter {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-twitter-empty.png");
+  background-color: #58b2ae;
+}
+.page-community .social a .icon.twitter:hover {
+  background-color: #2e9f9a;
+}
+.page-community .social a .icon.linkedin {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-linkedin-empty.png");
+  background-color: #58b2ae;
+}
+.page-community .social a .icon.linkedin:hover {
+  background-color: #2e9f9a;
+}
+.page-community .social .item:last-of-type {
+  border-bottom: 2px solid #D6DADD;
+}
+.page-events .section-intro-events,
+.post-type-archive-custom_event .section-intro-events {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/events.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+.page-events .section-intro-events .overlayer,
+.post-type-archive-custom_event .section-intro-events .overlayer {
+  background: #58b2ae;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.page-events .events,
+.post-type-archive-custom_event .events {
+  color: #394654;
+  padding-top: 30px;
+}
+.page-events .events h1,
+.post-type-archive-custom_event .events h1 {
+  font-size: 45px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.page-events .events h2,
+.post-type-archive-custom_event .events h2 {
+  margin: 50px 0 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.page-events .events h3,
+.post-type-archive-custom_event .events h3 {
+  margin-top: 0;
+}
+.page-events .events p,
+.post-type-archive-custom_event .events p {
+  color: #A0A2A5;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 30px 50px 0;
+}
+.page-events .events .event-list,
+.post-type-archive-custom_event .events .event-list {
+  border-top: 2px solid #d7dadd;
+}
+.page-events .events .item,
+.post-type-archive-custom_event .events .item {
+  padding: 20px 40px;
+  border-bottom: 2px solid #d7dadd;
+  position: relative;
+  clear: both;
+  display: flex;
+}
+.page-events .events .item img,
+.post-type-archive-custom_event .events .item img {
+  margin-right: 20px;
+  flex: 0 0 140px;
+  align-self: flex-start;
+}
+.page-events .events .item .title,
+.post-type-archive-custom_event .events .item .title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.page-events .events .item .date,
+.post-type-archive-custom_event .events .item .date,
+.page-events .events .item .speaker,
+.post-type-archive-custom_event .events .item .speaker {
+  font-size: 18px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+}
+.page-events .events .item button.text-toggle,
+.post-type-archive-custom_event .events .item button.text-toggle {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-grey.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  text-indent: -9999px;
+}
+.page-events .events .item button.text-toggle:focus,
+.post-type-archive-custom_event .events .item button.text-toggle:focus {
+  outline: none;
+}
+.page-events .events .item button.text-toggle:hover,
+.post-type-archive-custom_event .events .item button.text-toggle:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-minus-green.png");
+}
+.page-events .events .item button.text-toggle.collapsed,
+.post-type-archive-custom_event .events .item button.text-toggle.collapsed {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-grey.png");
+}
+.page-events .events .item button.text-toggle.collapsed:hover,
+.post-type-archive-custom_event .events .item button.text-toggle.collapsed:hover {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-plus-green.png");
+}
+@media (max-width: 767px) {
+  .page-events .events p,
+  .post-type-archive-custom_event .events p {
+    margin: 10px 0 25px;
+  }
+  .page-events .events .item,
+  .post-type-archive-custom_event .events .item {
+    flex-direction: column;
+  }
+  .page-events .events .item img,
+  .post-type-archive-custom_event .events .item img {
+    align-self: center;
+  }
+  .page-events .events .item button.text-toggle,
+  .post-type-archive-custom_event .events .item button.text-toggle {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+  .page-community .social p {
+    margin: 10px 0 25px;
+  }
+  .page-community .social .item img {
+    display: block;
+    margin: auto;
+  }
+  .page-community .social .item .item-description {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+}
+.post-template-default,
+.news-template-default,
+.insights-template-default {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.post-template-default .section-intro-insights,
+.news-template-default .section-intro-insights,
+.insights-template-default .section-intro-insights {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/news-ipad.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 150px 0;
+}
+.post-template-default .section-intro-insights .overlayer,
+.news-template-default .section-intro-insights .overlayer,
+.insights-template-default .section-intro-insights .overlayer {
+  background: #58b2ae;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.post-template-default img,
+.news-template-default img,
+.insights-template-default img {
+  max-width: 100%;
+  height: auto;
+}
+.post-template-default h1.entry-title,
+.news-template-default h1.entry-title,
+.insights-template-default h1.entry-title {
+  font-size: 45px;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: left;
+}
+.post-template-default .post-edit-link,
+.news-template-default .post-edit-link,
+.insights-template-default .post-edit-link {
+  display: block;
+}
+.post-template-default .post-wrapper,
+.news-template-default .post-wrapper,
+.insights-template-default .post-wrapper {
+  color: #333;
+}
+.post-template-default .post-wrapper h1,
+.news-template-default .post-wrapper h1,
+.insights-template-default .post-wrapper h1,
+.post-template-default .post-wrapper h2,
+.news-template-default .post-wrapper h2,
+.insights-template-default .post-wrapper h2 {
+  margin-bottom: 10px;
+}
+.post-template-default .post-wrapper a,
+.news-template-default .post-wrapper a,
+.insights-template-default .post-wrapper a {
+  color: #58b2ae;
+}
+.post-template-default .screen-reader-text,
+.news-template-default .screen-reader-text,
+.insights-template-default .screen-reader-text {
+  display: none;
+}
+.post-template-default .entry-content,
+.news-template-default .entry-content,
+.insights-template-default .entry-content {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 16px;
+}
+.post-template-default .entry-content h2,
+.news-template-default .entry-content h2,
+.insights-template-default .entry-content h2 {
+  font-size: 18px;
+}
+.post-template-default .entry-content p,
+.news-template-default .entry-content p,
+.insights-template-default .entry-content p {
+  color: #a1a3a6;
+}
+.post-template-default .entry-meta,
+.news-template-default .entry-meta,
+.insights-template-default .entry-meta {
+  font-size: 18px;
+  font-weight: 600;
+}
+.post-template-default .entry-meta .updated,
+.news-template-default .entry-meta .updated,
+.insights-template-default .entry-meta .updated {
+  display: none;
+}
+.post-template-default .entry-meta .byline,
+.news-template-default .entry-meta .byline,
+.insights-template-default .entry-meta .byline {
+  display: block;
+}
+.post-template-default .nav-links,
+.news-template-default .nav-links,
+.insights-template-default .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.post-template-default .nav-links span,
+.news-template-default .nav-links span,
+.insights-template-default .nav-links span {
+  display: block;
+  width: 150px;
+}
+.post-template-default .nav-previous a,
+.news-template-default .nav-previous a,
+.insights-template-default .nav-previous a,
+.post-template-default .nav-next a,
+.news-template-default .nav-next a,
+.insights-template-default .nav-next a {
+  font-size: 22px;
+  position: relative;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 10px 40px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #58b2ae;
+  color: #fff;
+}
+.post-template-default .nav-previous a:hover,
+.news-template-default .nav-previous a:hover,
+.insights-template-default .nav-previous a:hover,
+.post-template-default .nav-next a:hover,
+.news-template-default .nav-next a:hover,
+.insights-template-default .nav-next a:hover {
+  background-color: #2e9f9a;
+  text-decoration: none;
+}
+.post-template-default .nav-previous a:after,
+.news-template-default .nav-previous a:after,
+.insights-template-default .nav-previous a:after,
+.post-template-default .nav-next a:after,
+.news-template-default .nav-next a:after,
+.insights-template-default .nav-next a:after {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 10px;
+  height: 19px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post-template-default .nav-previous a:after,
+.news-template-default .nav-previous a:after,
+.insights-template-default .nav-previous a:after {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-left.png");
+  left: 10px;
+}
+.post-template-default .nav-next a:after,
+.news-template-default .nav-next a:after,
+.insights-template-default .nav-next a:after {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  right: 10px;
+}
+.post-template-default .site-main,
+.news-template-default .site-main,
+.insights-template-default .site-main {
+  margin-bottom: 50px;
+}
+.post-template-default .post-navigation,
+.news-template-default .post-navigation,
+.insights-template-default .post-navigation {
+  margin: 50px 0;
+}
+.post-template-default .comments-area .comment,
+.news-template-default .comments-area .comment,
+.insights-template-default .comments-area .comment {
+  position: relative;
+}
+.post-template-default .comments-area .comment .reply,
+.news-template-default .comments-area .comment .reply,
+.insights-template-default .comments-area .comment .reply {
+  position: absolute;
+  top: 45px;
+  left: 75px;
+  text-transform: uppercase;
+}
+.post-template-default .comments-area .comment .comment-content,
+.news-template-default .comments-area .comment .comment-content,
+.insights-template-default .comments-area .comment .comment-content {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.post-template-default .comments-area .comment .says,
+.news-template-default .comments-area .comment .says,
+.insights-template-default .comments-area .comment .says {
+  display: none;
+}
+.post-template-default .comments-area .comment .comment-author .fn,
+.news-template-default .comments-area .comment .comment-author .fn,
+.insights-template-default .comments-area .comment .comment-author .fn {
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+.post-template-default .comments-area .comment .comment-metadata,
+.news-template-default .comments-area .comment .comment-metadata,
+.insights-template-default .comments-area .comment .comment-metadata {
+  position: absolute;
+  top: 5px;
+  left: 75px;
+}
+@media (max-width: 540px) {
+  .post-template-default .nav-previous a,
+  .post-template-default .nav-next a {
+    font-size: 0;
+    width: 34px;
+    height: 40px;
+    padding: 0;
+  }
+}
+body.archive,
+.page-news,
+.post-type-archive-custom_event,
+body.search {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+body.archive p.no-results,
+.page-news p.no-results,
+.post-type-archive-custom_event p.no-results,
+body.search p.no-results {
+  color: #2f3641;
+  font-size: 16px;
+}
+body.archive .section-intro-insights,
+.page-news .section-intro-insights,
+.post-type-archive-custom_event .section-intro-insights,
+body.search .section-intro-insights {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/news-ipad.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  padding: 150px 0;
+}
+body.archive .section-intro-insights .overlayer,
+.page-news .section-intro-insights .overlayer,
+.post-type-archive-custom_event .section-intro-insights .overlayer,
+body.search .section-intro-insights .overlayer {
+  background: #58b2ae;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+body.archive .site-main img,
+.page-news .site-main img,
+.post-type-archive-custom_event .site-main img,
+body.search .site-main img {
+  max-width: 100%;
+  height: auto;
+}
+body.archive .excerpt,
+.page-news .excerpt,
+.post-type-archive-custom_event .excerpt,
+body.search .excerpt {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 16px;
+  color: #a1a3a6;
+}
+body.archive .button-read-more,
+.page-news .button-read-more,
+.post-type-archive-custom_event .button-read-more,
+body.search .button-read-more {
+  font-size: 20px;
+  position: relative;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 10px 40px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #58b2ae;
+  color: #fff;
+}
+body.archive .button-read-more:hover,
+.page-news .button-read-more:hover,
+.post-type-archive-custom_event .button-read-more:hover,
+body.search .button-read-more:hover {
+  background-color: #2e9f9a;
+  text-decoration: none;
+}
+body.archive .button-read-more:after,
+.page-news .button-read-more:after,
+.post-type-archive-custom_event .button-read-more:after,
+body.search .button-read-more:after {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 10px;
+  height: 19px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  right: 10px;
+}
+body.archive article,
+.page-news article,
+.post-type-archive-custom_event article,
+body.search article {
+  display: flex;
+  padding: 20px 0;
+  border-top: 2px solid #d7dadd;
+  text-align: left !important;
+}
+body.archive article:last-of-type,
+.page-news article:last-of-type,
+.post-type-archive-custom_event article:last-of-type,
+body.search article:last-of-type {
+  border-bottom: 2px solid #d7dadd;
+}
+body.archive .post-thumbnail,
+.page-news .post-thumbnail,
+.post-type-archive-custom_event .post-thumbnail,
+body.search .post-thumbnail {
+  flex: 0 0 150px;
+  margin-right: 20px;
+}
+body.archive .post-thumbnail img,
+.page-news .post-thumbnail img,
+.post-type-archive-custom_event .post-thumbnail img,
+body.search .post-thumbnail img {
+  max-width: 100%;
+  height: auto;
+}
+body.archive .entry-title,
+.page-news .entry-title,
+.post-type-archive-custom_event .entry-title,
+body.search .entry-title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 0 10px;
+  text-align: left;
+}
+body.archive .entry-title a,
+.page-news .entry-title a,
+.post-type-archive-custom_event .entry-title a,
+body.search .entry-title a {
+  color: #232931;
+}
+body.archive .entry-content,
+.page-news .entry-content,
+.post-type-archive-custom_event .entry-content,
+body.search .entry-content {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 16px;
+}
+body.archive .entry-content h2,
+.page-news .entry-content h2,
+.post-type-archive-custom_event .entry-content h2,
+body.search .entry-content h2 {
+  font-size: 18px;
+}
+body.archive .entry-content p,
+.page-news .entry-content p,
+.post-type-archive-custom_event .entry-content p,
+body.search .entry-content p {
+  color: #a1a3a6;
+}
+body.archive .entry-meta,
+.page-news .entry-meta,
+.post-type-archive-custom_event .entry-meta,
+body.search .entry-meta {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #232931;
+}
+body.archive .entry-meta .updated,
+.page-news .entry-meta .updated,
+.post-type-archive-custom_event .entry-meta .updated,
+body.search .entry-meta .updated {
+  display: none;
+}
+body.archive .entry-meta .byline,
+.page-news .entry-meta .byline,
+.post-type-archive-custom_event .entry-meta .byline,
+body.search .entry-meta .byline {
+  display: block;
+}
+@media (max-width: 640px) {
+  body.archive article {
+    flex-direction: column;
+  }
+  body.archive article a.button-read-more {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .widget-area {
+    margin-top: 30px;
+  }
+}
+.widget-area * {
+  text-align: left !important;
+}
+.widget-area section {
+  font-family: 'Open Sans', Arial, sans-serif;
+  height: auto !important;
+  padding: 0;
+  color: #2f3641;
+  font-size: 16px;
+}
+.widget-area section a {
+  color: #58b2ae;
+}
+.widget-area section .widget-title {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.widget-area .post-date {
+  display: block;
+  padding-top: 5px;
+}
+.widget-area .widget_recent_entries ul li {
+  margin-bottom: 20px;
+}
+.widget-area .widget_recent_entries ul li a {
+  font-size: 18px;
+}
+.widget-area .search-form {
+  display: flex;
+  width: 100%;
+}
+.widget-area .search-form input {
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  flex-grow: 1;
+  padding-left: 10px;
+  color: #fff;
+}
+.widget-area .search-form .search-submit {
+  flex: 0 0 34px;
+  background-color: #232931;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 34px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.widget-area .screen-reader-text {
+  display: none;
+}
+.page-portfolio .section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/innovate-img.jpg");
+  background-position: center;
+}
+.page-portfolio .section-intro .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: -webkit-radial-gradient(top right, ellipse cover, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  background: radial-gradient(ellipse at top right, #8944c1 0%, #8944c1 1%, rgba(137, 68, 193, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8944c1', endColorstr='#008944c1', GradientType=1);
+}
+.page-portfolio section p {
+  font-size: 16px;
+}
+.page-portfolio section.innovate-portfolio {
+  color: #232931;
+}
+.page-portfolio section.innovate-portfolio .col {
+  float: none;
+}
+@media (min-width: 767px) {
+  .page-portfolio section.innovate-portfolio .col.col-sm-4 {
+    width: 30%;
+  }
+}
+.page-portfolio section.innovate-portfolio .col img {
+  transition: all 0.2s;
+  margin: auto;
+  display: block;
+}
+.page-portfolio section.innovate-portfolio .col:hover img {
+  transform: scale(1.2);
+}
+.page-portfolio section.innovate-portfolio .clearfix {
+  margin-bottom: 40px;
+}
+.page-portfolio section.innovate-portfolio .row.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.page-portfolio section.quote {
+  background-color: #6b15b2;
+}
+@media (min-width: 768px) {
+  .page-portfolio section.quote .row {
+    display: flex;
+  }
+}
+.page-portfolio section.quote .quote {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.page-portfolio section.quote .quote.quote-open {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-open-white.png");
+  top: -20px;
+  left: -40px;
+}
+.page-portfolio section.quote .quote.quote-close {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/quotes-close-white.png");
+  bottom: -20px;
+  right: -20px;
+}
+.page-portfolio section.quote .quote-text {
+  font-size: 22px;
+  position: relative;
+  margin: 0 20px 30px;
+}
+.page-portfolio section.quote .misc {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+}
+.page-portfolio section.quote .misc span {
+  align-self: center;
+}
+.page-portfolio section.quote .misc img {
+  margin: 0 auto 20px;
+}
+.page-portfolio section.quote .col {
+  margin: 0 auto 20px;
+  display: block;
+  max-width: 600px;
+  float: none;
+}
+@media (min-width: 768px) {
+  .page-portfolio section.quote .col {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .page-tours section.quote h1 {
+    font-size: 28px;
+  }
+}
+/* bootstrap fixes */
+.modal-dialog {
+  width: 80vw;
+  min-width: 80vw;
+}
+.modal.fade:not(.in) .modal-dialog {
+  -webkit-transform: translate3d(25%, 0, 0);
+  transform: translate3d(25%, 0, 0);
+}
+div.wpcf7 .wpcf7-display-none {
+  display: none !important;
+}
+a.js-modal-close.close {
+  opacity: 0.5;
+  color: #000;
+  font-size: 2.5em;
+}
+.full-height {
+  display: table !important;
+  width: 100%;
+  height: 100%;
+}
+.full-height > div.container,
+.full-height > div.container-fluid {
+  vertical-align: middle;
+  display: table-cell !important;
+  height: 100%;
+  width: 100%;
+}
+.full-height .row {
+  max-width: 1170px;
+  margin: auto;
+}
+.subscribe-bar-fixed {
+  position: fixed;
+  background: #232931;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}
+.subscribe-bar-fixed button {
+  border: none;
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #58b2ae;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/x-close.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscribe-bar-fixed button:hover {
+  background-color: #2e9f9a;
+}
+.subscribe-bar-fixed .help-block.wpcf7-not-valid-tip {
+  display: none !important;
+}
+.subscribe-bar-fixed h2 {
+  margin: 0;
+  line-height: 50px;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 100px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.subscribe-bar-fixed .wpcf7 {
+  vertical-align: middle;
+  display: inline-block;
+}
+.subscribe-bar-fixed .form-group {
+  display: inline-block;
+  margin: 0;
+}
+.subscribe-bar-fixed input {
+  background-color: #2f3641;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
+.subscribe-bar-fixed input:focus {
+  border: none;
+  box-shadow: none;
+}
+.subscribe-bar-fixed .wpcf7 {
+  display: inline-flex;
+  margin-left: 100px;
+}
+.subscribe-bar-fixed .wpcf7 .form-group {
+  margin-bottom: 0;
+}
+.subscribe-bar-fixed .wpcf7 .subscriber-email {
+  flex-grow: 1;
+  vertical-align: middle;
+  height: 34px;
+  min-width: 250px;
+}
+.subscribe-bar-fixed .wpcf7 .subscriber-email input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.subscribe-bar-fixed .wpcf7-response-output {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: calc(100% - 30px);
+}
+.subscribe-bar-fixed .btn-subscribe {
+  background-color: #2f3641;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  height: 34px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -5px;
+  margin-top: -2px;
+}
+.subscribe-bar-fixed .btn-subscribe:hover {
+  background-color: #2e9f9a;
+  border: none;
+}
+.modal-content {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  font-size: 16px;
+  color: #2f3641;
+}
+.modal-content span {
+  display: block;
+}
+.modal-content p:before {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: #d7dadd;
+  margin: 30px 0 40px;
+}
+.modal-content a {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #2f3641;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.modal-content a:before {
+  display: inline-block;
+  content: '>';
+  color: #65bcfb;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.modal-content a:hover,
+.modal-content a:active,
+.modal-content a:focus {
+  text-decoration: none;
+  color: #65bcfb;
+}
+.modal-content img {
+  max-width: 90%;
+}
+.modal-content .btn {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 10px;
+  width: 45px;
+  height: 45px;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/btn-close.png");
+  background-size: 100%;
+  text-indent: -9999px;
+  border: 0;
+}
+.modal-content .btn:hover,
+.modal-content .btn:active,
+.modal-content .btn:focus,
+.modal-content .btn:active:hover,
+.modal-content .btn:active:focus {
+  background-color: transparent;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/btn-close.png");
+  outline: none;
+  box-shadow: none;
+}
+section {
+  font-family: 'Roboto Slab', Tahoma, Georgia, serif;
+  color: white;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+section a {
+  color: white;
+}
+section h1 {
+  font-weight: 300;
+  font-size: 45px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 0 40px;
+  text-align: center;
+}
+section h2 {
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+section h3 {
+  line-height: 1.4;
+}
+section .carousel * {
+  outline: none;
+}
+section .slick-dots {
+  bottom: -20px;
+}
+section .slick-dots li button:before {
+  font-size: 15px;
+}
+section .slick-dots li button:before {
+  color: #fff;
+  opacity: 0.5;
+}
+section .slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 1;
+}
+section .slick-next {
+  right: 50px;
+}
+section .slick-next:before {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-next.png");
+  background-size: 100%;
+  width: 60px;
+  height: 60px;
+  content: '';
+  display: block;
+}
+section .slick-prev {
+  z-index: 1;
+  left: 10px;
+}
+section .slick-prev:before {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-previous.png");
+  background-size: 100%;
+  width: 60px;
+  height: 60px;
+  content: '';
+  display: block;
+}
+section .col {
+  margin-bottom: 40px;
+}
+section .col:last-child {
+  margin-bottom: 0;
+}
+section .button-more,
+section input.button-more {
+  font-size: 25px;
+  position: relative;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 10px 40px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+section .button-more.white,
+section input.button-more.white,
+section .button-more.white:focus,
+section input.button-more.white:focus {
+  background-color: #fff;
+  color: #65bcfb;
+}
+section .button-more.white:after,
+section input.button-more.white:after,
+section .button-more.white:focus:after,
+section input.button-more.white:focus:after {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right-blue.png");
+}
+section .button-more.white:hover,
+section input.button-more.white:hover {
+  background-color: #fff;
+  color: #3fabfa;
+}
+section .button-more.white:hover:after,
+section input.button-more.white:hover:after {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right-bluedarker.png");
+}
+section .button-more.purple,
+section input.button-more.purple {
+  background-color: #8944c1;
+}
+section .button-more.purple:hover,
+section input.button-more.purple:hover {
+  background-color: #6b15b2;
+}
+section .button-more.red,
+section input.button-more.red,
+section .button-more.red:focus,
+section input.button-more.red:focus {
+  background-color: #e73333;
+}
+section .button-more.red:hover,
+section input.button-more.red:hover {
+  background-color: #bf2a28;
+}
+section .button-more.orange,
+section input.button-more.orange,
+section .button-more.orange:focus,
+section input.button-more.orange:focus {
+  background-color: #fd9033;
+}
+section .button-more.orange:hover,
+section input.button-more.orange:hover {
+  background-color: #fd7400;
+}
+section .button-more.yellow,
+section input.button-more.yellow {
+  background-color: #ffe333;
+}
+section .button-more.yellow:hover,
+section input.button-more.yellow:hover {
+  background-color: #ffdc00;
+}
+section .button-more.green,
+section input.button-more.green {
+  background-color: #58b2ae;
+}
+section .button-more.green:hover,
+section input.button-more.green:hover {
+  background-color: #2e9f9a;
+}
+section .button-more.blue,
+section input.button-more.blue {
+  background-color: #65bcfb;
+}
+section .button-more.blue:hover,
+section input.button-more.blue:hover {
+  background-color: #3fabfa;
+}
+section .button-more.grey,
+section input.button-more.grey {
+  background-color: #394654;
+}
+section .button-more.grey:hover,
+section input.button-more.grey:hover,
+section .button-more.grey:focus,
+section input.button-more.grey:focus,
+section .button-more.grey:active,
+section input.button-more.grey:active {
+  background-color: #2f3641;
+}
+section .button-more:hover,
+section input.button-more:hover,
+section .button-more:focus,
+section input.button-more:focus {
+  text-decoration: none;
+  color: #fff;
+}
+section .button-more:after,
+section input.button-more:after {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 10px;
+  height: 19px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/arrow-right.png");
+}
+.section-intro {
+  text-align: center;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/section-1.jpg");
+  transition: all 0.3s;
+}
+.section-intro h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+.section-intro h2 {
+  font-size: 20px;
+  margin: 0 auto 10px;
+  opacity: 0;
+}
+.page-terms section.content,
+.page-privacy section.content {
+  color: #394654;
+}
+.page-terms section.content p,
+.page-privacy section.content p {
+  font-size: 16px;
+}
+.page-terms section.content h3,
+.page-privacy section.content h3 {
+  font-size: 36px;
+  margin-top: 30px;
+}
+.page-terms section.content a,
+.page-privacy section.content a {
+  color: #2e9f9a;
+}
+.page-terms section.content ul,
+.page-privacy section.content ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.page-learn .section-intro {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/learn-img.jpg");
+  background-position: center;
+}
+.page-learn .section-intro .gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(top left, ellipse cover, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  background: -webkit-radial-gradient(top left, ellipse cover, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  background: radial-gradient(ellipse at top left, #fd9033 0%, #fd9033 1%, rgba(253, 144, 51, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd9033', endColorstr='#00fd9033', GradientType=1);
+}
+.page-learn .help {
+  text-align: center;
+  color: #394654;
+}
+.page-learn .help h1 {
+  font-size: 45px;
+  font-weight: 300;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+.page-learn .help h2 {
+  color: #fd9033;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+.page-learn .help h3 {
+  font-size: 20px;
+}
+.page-learn .help p {
+  color: #a1a3a6;
+  max-width: 500px;
+  margin: 0 auto 30px;
+  min-height: 100px;
+}
+.page-learn .help .icon {
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+}
+.page-learn .help .icon-book {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-book-orange.png");
+}
+.page-learn .help .icon-academy {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-academy-orange.png");
+}
+.page-learn .help .icon-tours {
+  background-image: url("../../../../../fintechcircle.com/wp-content/themes/fintech/assets/img/icon-tour-orange.png");
+}
+@media (max-width: 767px) {
+  p {
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+  }
+  .slick-next {
+    display: none !important;
+  }
+  .slick-prev {
+    display: none !important;
+  }
+  #navbar {
+    display: none;
+  }
+  .navbar-collapse {
+    top: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+  .nav.navbar-right {
+    display: block;
+  }
+  .mobile-nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #2f3641;
+  }
+  .mobile-nav-container a.home {
+    background: none !important;
+  }
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  section h1 {
+    font-size: 36px;
+  }
+  section h1.long {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  section h1:after {
+    width: 90%;
+    margin: 20px auto 30px;
+  }
+  section h2 {
+    font-size: 24px;
+  }
+  section h3 {
+    font-size: 18px;
+  }
+  section p {
+    font-size: 14px;
+  }
+  .page-startups section.invest-requirements p.apply {
+    text-align: center;
+  }
+  .page-tours .program {
+    text-align: left;
+  }
+  .modal-dialog {
+    width: 100%;
+    min-height: 90%;
+    margin: 5% 10px;
+  }
+  .modal-dialog a {
+    font-size: 16px;
+  }
+  .modal-dialog .btn {
+    bottom: 20px;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .page-innovate section.details .icon {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .page-innovate section.approach img {
+    max-width: 80%;
+  }
+  .page-innovate section.benefits h1 {
+    margin-bottom: 0;
+  }
+  .page-innovate section.experts .info {
+    padding: 10px 15px 0;
+  }
+  .page-innovate section.api-innovation p:before {
+    margin: 50px 0 20px;
+  }
+  .modal-content {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  nav.navbar-top .main-nav > li > a {
+    padding: 18px 30px;
+  }
+  nav.navbar-top .container,
+  .logo-bar .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1061px) {
+  .main-nav li.dropdown {
+    width: 170px;
+    text-align: center;
+  }
+  .main-nav .dropdown-menu {
+    min-width: 170px;
+  }
+}
+@media (max-width: 920px) {
+  .page-learn .container {
+    width: 100% !important;
+  }
+  .page-tours section.splitted > div {
+    width: 100%;
+    display: block;
+  }
+  .page-learn .help p {
+    min-height: initial;
+  }
+}
+@media (max-width: 480px) {
+  .page-startups .invest-portfolio .col-xs-6 {
+    width: 100%;
+  }
+  section .button-more {
+    font-size: 20px;
+  }
+}
